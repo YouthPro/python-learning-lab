@@ -8,6 +8,10 @@
 
 dict/set/list、Counter/deque/heapq/bisect/re、OrderedDict、cache、itertools、装饰器与文件生成器。
 
+## LeetCode 数据结构专项
+
+专项练习按 12 种数据结构和难度组织，共 141 道题。每题提供可独立导入的 Python3 骨架，并在章节目录中标明训练方向。 [专项练习目录](leetcode-data-structures-python/README.md)
+
 ## 推荐学习顺序
 
 先读 [题目目录](exercise_catalog.md)，按 basic_structures → advanced_structures → iterators_generators 的顺序完成练习；每题先理解边界契约，再写代码并运行对应测试。最后完成/阅读项目并在小数据上独立解释输出。
@@ -19,6 +23,19 @@ python -m pytest phase1_python_programming/section01_data_structures/tests --str
 ```
 
 未修改的 TODO 默认显示 xfail；实现后断言会正常执行，错误实现会失败。严格模式中所有 TODO 都失败。默认通过不代表练习已完成。浮点结果使用 allclose 或 approx，随机样例固定种子。
+
+## Advanced Time Tests / Advanced Memory Tests
+
+30 道题各有一项时间压力测试和一项内存压力测试。提交实现后可生成正确性、时间用量/时间限制、内存用量/内存限制及对应比值：
+
+```bash
+python scripts/assess_section01.py --problem two_sum
+python scripts/assess_section01.py
+```
+
+报告保存为 `datasets/processed/section01_assessment/results.json` 和 `results.md`。只有正确性、时间和内存全部达标才通过；TODO 显示未实现，不伪造性能数据。
+
+压力测试默认不随日常测试运行，使用 `--run-advanced` 启用；时间与内存分开在独立进程中测量。内存指执行期间的 Python 分配峰值，包含返回结果、不包含预先构造的输入，不等于进程 RSS。完整的逐题限制、工作负载、复杂度目标与运行命令见 [性能评估指南](../../docs/section01_performance.md)。
 
 ## 练习与进度
 

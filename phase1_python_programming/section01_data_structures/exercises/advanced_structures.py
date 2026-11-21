@@ -9,13 +9,13 @@ def moving_average(stream: Iterable[float], k: int) -> Iterator:
     知识点: deque, iterator, generator
 
     产生最近最多 k 个元素的均值（含开始时不满窗口的均值）。
-
     示例: [1,3,5],2 → [1,2,4]；[],2 → []
     边界: 窗口参数≤0 抛 ValueError；惰性读取，不可一次性 list(iterable)。
     Hint: 优先查阅本 Section 官方参考资料；不要修改测试约定。
     """
 
     # TODO: Implement your solution
+
     raise NotImplementedError
 
 

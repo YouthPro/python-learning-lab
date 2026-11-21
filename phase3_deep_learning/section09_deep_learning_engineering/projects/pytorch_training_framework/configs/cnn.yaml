@@ -1,0 +1,12 @@
+seed: 42
+run_dir: outputs/cnn_run
+model:
+  name: cnn
+  input_shape: [1, 16, 16]
+  depth: 2
+  dropout: 0.2
+training:
+  epochs: 4
+  gradient_accumulation: 2
+optimizer:
+  lr: 0.001

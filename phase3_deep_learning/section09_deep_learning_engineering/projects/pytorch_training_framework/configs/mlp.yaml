@@ -1,0 +1,7 @@
+seed: 42
+run_dir: outputs/mlp_run
+model:
+  name: mlp
+  hidden_dims: [64, 32]
+training:
+  epochs: 4

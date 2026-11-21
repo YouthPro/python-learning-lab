@@ -15,3 +15,10 @@ datasets/processed/*
 **/reports/*
 !**/reports/README.md
 **/models/*.joblib
+outputs/
+**/checkpoints/*.pt
+**/logs/*.csv
+**/logs/*.jsonl
+phase3_deep_learning/**/outputs/*
+!phase3_deep_learning/**/outputs/.gitkeep
+**/sample.jpg

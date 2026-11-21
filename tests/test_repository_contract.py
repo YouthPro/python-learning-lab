@@ -47,7 +47,12 @@ def test_complete_project(project):
 
 
 def test_project_total():
-    assert len(list(ROOT.glob("phase*/section*/projects/*/README.md"))) == 11
+    # Preserve the original phases' contract as the curriculum grows.
+    legacy = [
+        *ROOT.glob("phase1_*/section*/projects/*/README.md"),
+        *ROOT.glob("phase2_*/section*/projects/*/README.md"),
+    ]
+    assert len(legacy) == 11
 
 
 def test_local_document_links_exist():

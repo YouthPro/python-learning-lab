@@ -1,0 +1,134 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.7.0
+rootdir: /home/ai_infra/projects/python-learning-lab
+configfile: pyproject.toml
+testpaths: phase1_python_programming, phase2_data_science, phase3_deep_learning, tests
+plugins: cov-7.1.0
+collected 858 items / 495 deselected / 363 selected
+
+phase1_python_programming/section01_data_structures/projects/text_analyzer/tests/test_analyzer.py . [  0%]
+....                                                                     [  1%]
+phase1_python_programming/section01_data_structures/projects/text_analyzer/tests/test_ngram.py . [  1%]
+.....                                                                    [  3%]
+phase1_python_programming/section01_data_structures/projects/text_analyzer/tests/test_reader.py . [  3%]
+...                                                                      [  4%]
+phase1_python_programming/section01_data_structures/projects/text_analyzer/tests/test_tokenizer.py . [  4%]
+..                                                                       [  4%]
+phase1_python_programming/section02_python_engineering/projects/dataset_cleaning_pipeline/tests/test_pipeline.py . [  5%]
+.....                                                                    [  6%]
+phase1_python_programming/section02_python_engineering/projects/dataset_inspector/tests/test_manager.py . [  6%]
+..............                                                           [ 10%]
+phase1_python_programming/section02_python_engineering/projects/file_toolkit/tests/test_operations.py . [ 11%]
+...............                                                          [ 15%]
+phase2_data_science/section03_numpy/projects/image_processor/tests/test_image_processor.py . [ 15%]
+........                                                                 [ 17%]
+phase2_data_science/section03_numpy/projects/linear_regression/tests/test_regression.py . [ 17%]
+........                                                                 [ 20%]
+phase2_data_science/section03_numpy/projects/vector_similarity/tests/test_similarity.py . [ 20%]
+........                                                                 [ 22%]
+phase2_data_science/section04_pandas/projects/ecommerce_analysis/tests/test_analysis.py . [ 22%]
+.....                                                                    [ 24%]
+phase2_data_science/section05_matplotlib/projects/exploratory_data_analysis/tests/test_eda.py . [ 24%]
+..                                                                       [ 25%]
+phase2_data_science/section05_matplotlib/projects/training_visualizer/tests/test_visualizer.py . [ 25%]
+.....                                                                    [ 26%]
+phase2_data_science/section06_sklearn/projects/machine_learning_workflow/tests/test_workflow.py . [ 26%]
+...........                                                              [ 30%]
+phase3_deep_learning/section07_pytorch_fundamentals/projects/fashion_mnist_classifier/tests/test_fashion.py . [ 30%]
+..                                                                       [ 30%]
+phase3_deep_learning/section07_pytorch_fundamentals/projects/mlp_classifier/tests/test_mlp.py . [ 31%]
+..                                                                       [ 31%]
+phase3_deep_learning/section08_data_pipeline_and_models/projects/cnn_image_classifier/tests/test_cnn.py . [ 31%]
+....                                                                     [ 33%]
+phase3_deep_learning/section08_data_pipeline_and_models/projects/image_dataset_pipeline/tests/test_pipeline.py . [ 33%]
+..                                                                       [ 33%]
+phase3_deep_learning/section08_data_pipeline_and_models/projects/transfer_learning_classifier/tests/test_transfer.py . [ 34%]
+...                                                                      [ 34%]
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/tests/test_config.py . [ 35%]
+..........                                                               [ 38%]
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/tests/test_data_models.py . [ 38%]
+...                                                                      [ 39%]
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/tests/test_inference.py . [ 39%]
+..                                                                       [ 39%]
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/tests/test_resume.py . [ 40%]
+..                                                                       [ 40%]
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/tests/test_training.py . [ 41%]
+.                                                                        [ 41%]
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/tests/test_utilities.py . [ 41%]
+......                                                                   [ 43%]
+tests/test_cli.py ...........                                            [ 46%]
+tests/test_datasets.py ......                                            [ 47%]
+tests/test_exercise_feedback.py ....                                     [ 49%]
+tests/test_phase3_contract.py .......................................... [ 60%]
+.....                                                                    [ 61%]
+tests/test_repository_contract.py ...................................... [ 72%]
+........................................................................ [ 92%]
+                                                                         [ 92%]
+tests/test_section01_assessment.py ............................          [100%]
+
+=============================== warnings summary ===============================
+phase2_data_science/section04_pandas/projects/ecommerce_analysis/tests/test_analysis.py: 15 warnings
+phase2_data_science/section05_matplotlib/projects/exploratory_data_analysis/tests/test_eda.py: 15 warnings
+  /home/ai_infra/projects/python-learning-lab/phase2_data_science/section04_pandas/projects/ecommerce_analysis/src/cleaning.py:34: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
+  See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+    frame.drop(
+
+phase3_deep_learning/section08_data_pipeline_and_models/projects/image_dataset_pipeline/tests/test_pipeline.py::test_dataloader_worker_and_statistics
+  /usr/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=12246) is multi-threaded, use of fork() may lead to deadlocks in the child.
+    self.pid = os.fork()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+---------------- generated xml file: /tmp/python-lab-final.xml -----------------
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.12.3-final-0 ________________
+
+Name                                                                                                                                           Stmts   Miss  Cover   Missing
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+phase3_deep_learning/__init__.py                                                                                                                   0      0   100%
+phase3_deep_learning/common/__init__.py                                                                                                            0      0   100%
+phase3_deep_learning/common/checkpoint.py                                                                                                         30      2    93%   42, 62
+phase3_deep_learning/common/data.py                                                                                                               33     11    67%   14, 31, 35, 48-56
+phase3_deep_learning/common/engine.py                                                                                                             59      2    97%   27, 45
+phase3_deep_learning/common/experiment.py                                                                                                         32      1    97%   30
+phase3_deep_learning/common/logging.py                                                                                                            14      1    93%   14
+phase3_deep_learning/common/metrics.py                                                                                                            35      3    91%   24, 37, 46
+phase3_deep_learning/common/models.py                                                                                                             22      3    86%   21, 28, 30
+phase3_deep_learning/common/runtime.py                                                                                                            28      6    79%   19, 33, 41-44
+phase3_deep_learning/common/visualization.py                                                                                                      53      0   100%
+phase3_deep_learning/section07_pytorch_fundamentals/__init__.py                                                                                    0      0   100%
+phase3_deep_learning/section07_pytorch_fundamentals/projects/fashion_mnist_classifier/src/models.py                                                3      0   100%
+phase3_deep_learning/section07_pytorch_fundamentals/projects/fashion_mnist_classifier/src/train.py                                                48     14    71%   32, 68-79, 96
+phase3_deep_learning/section07_pytorch_fundamentals/projects/mlp_classifier/src/data.py                                                           13      1    92%   11
+phase3_deep_learning/section07_pytorch_fundamentals/projects/mlp_classifier/src/models.py                                                          2      0   100%
+phase3_deep_learning/section07_pytorch_fundamentals/projects/mlp_classifier/src/train.py                                                          56     15    73%   89-112, 116
+phase3_deep_learning/section08_data_pipeline_and_models/__init__.py                                                                                0      0   100%
+phase3_deep_learning/section08_data_pipeline_and_models/projects/cnn_image_classifier/src/main.py                                                 71     20    72%   40, 54, 130-146, 150
+phase3_deep_learning/section08_data_pipeline_and_models/projects/cnn_image_classifier/src/models.py                                               20      1    95%   28
+phase3_deep_learning/section08_data_pipeline_and_models/projects/image_dataset_pipeline/src/dataset.py                                            78      7    91%   30, 51, 57, 71, 87, 106, 110
+phase3_deep_learning/section08_data_pipeline_and_models/projects/image_dataset_pipeline/src/generate.py                                           19      1    95%   13
+phase3_deep_learning/section08_data_pipeline_and_models/projects/transfer_learning_classifier/src/data.py                                         42     15    64%   48, 52-69, 71
+phase3_deep_learning/section08_data_pipeline_and_models/projects/transfer_learning_classifier/src/main.py                                         75     24    68%   124-151, 155
+phase3_deep_learning/section08_data_pipeline_and_models/projects/transfer_learning_classifier/src/models.py                                       16      2    88%   10, 19
+phase3_deep_learning/section09_deep_learning_engineering/__init__.py                                                                               0      0   100%
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/__init__.py                    1      0   100%
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/config.py                    102     18    82%   41, 63, 74, 76, 81, 88, 90, 95, 99, 101, 104, 106, 111, 113, 116, 124, 129, 134
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/datasets/__init__.py          56      2    96%   62, 76
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/datasets/image_folder.py       2      0   100%
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/datasets/synthetic.py          4      0   100%
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/engine/__init__.py             0      0   100%
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/engine/evaluator.py           15      0   100%
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/engine/optim.py               18      2    89%   15, 30
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/engine/predictor.py           19      1    95%   22
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/engine/trainer.py             97      7    93%   71, 80-83, 105, 151
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/models/__init__.py             9      1    89%   21
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/models/cnn.py                  2      0   100%
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/models/mlp.py                  2      0   100%
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/seed.py                        4      0   100%
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/utils/__init__.py              0      0   100%
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/utils/checkpoint.py            9      1    89%   32
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/utils/early_stopping.py        2      0   100%
+phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/utils/logger.py                2      0   100%
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                           1093    161    85%
+Coverage JSON written to file /tmp/python-lab-phase3-coverage-final.json
+============== 363 passed, 495 deselected, 31 warnings in 23.64s ===============

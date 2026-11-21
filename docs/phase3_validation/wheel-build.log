@@ -1,0 +1,9 @@
+Processing /home/ai_infra/projects/python-learning-lab
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: python-learning-lab
+  Building wheel for python-learning-lab (pyproject.toml): started
+  Building wheel for python-learning-lab (pyproject.toml): finished with status 'done'
+  Created wheel for python-learning-lab: filename=python_learning_lab-0.1.0-py3-none-any.whl size=170244 sha256=60f6edc9b78d685865a54f7966536da8c5c54a28e5e2d3f0fa703298e3ad8399
+  Stored in directory: /home/ai_infra/.cache/pip/wheels/38/ca/81/49ab96bb2e8742aa5713d32b34b6c7af310a9ad83a7cf2a64b
+Successfully built python-learning-lab

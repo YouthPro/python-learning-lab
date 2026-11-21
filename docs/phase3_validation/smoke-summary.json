@@ -1,0 +1,15 @@
+{
+  "projects": 6,
+  "commands": 22,
+  "all_exit_zero": true,
+  "network_disabled": true,
+  "mlp_samples": 6000,
+  "mlp_test_accuracy": 1.0,
+  "framework_resumed_epoch": 2,
+  "rgb_and_grayscale_inference": true,
+  "transfer_trainable_parameters": [
+    1539,
+    8395267,
+    11178051
+  ]
+}

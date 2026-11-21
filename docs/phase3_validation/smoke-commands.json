@@ -1,0 +1,366 @@
+[
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "phase3_deep_learning.section07_pytorch_fundamentals.projects.mlp_classifier",
+      "--help"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab",
+    "exit_code": 0,
+    "seconds": 1.1253098429997408,
+    "stdout": "usage: __main__.py [-h] [--output OUTPUT] [--samples SAMPLES]\n                   [--epochs EPOCHS] [--seed SEED]\n                   [--hidden HIDDEN [HIDDEN ...]]\n                   [--activation {relu,tanh,gelu}] [--optimizer {adam,sgd}]\n                   [--learning-rate LEARNING_RATE] [--device DEVICE]\n\nTrain nonlinear circles; save learning curves and a held-out decision\nboundary.\n\noptions:\n  -h, --help            show this help message and exit\n  --output OUTPUT\n  --samples SAMPLES\n  --epochs EPOCHS\n  --seed SEED\n  --hidden HIDDEN [HIDDEN ...]\n  --activation {relu,tanh,gelu}\n  --optimizer {adam,sgd}\n  --learning-rate LEARNING_RATE\n  --device DEVICE\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "phase3_deep_learning.section07_pytorch_fundamentals.projects.fashion_mnist_classifier",
+      "--help"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab",
+    "exit_code": 0,
+    "seconds": 1.021108061000632,
+    "stdout": "usage: __main__.py [-h] [--output OUTPUT] [--data-root DATA_ROOT]\n                   [--synthetic] [--download] [--epochs EPOCHS]\n                   [--hidden HIDDEN [HIDDEN ...]] [--seed SEED]\n                   [--device DEVICE]\n\nReal FashionMNIST or explicit offline synthetic smoke mode.\n\noptions:\n  -h, --help            show this help message and exit\n  --output OUTPUT\n  --data-root DATA_ROOT\n  --synthetic\n  --download\n  --epochs EPOCHS\n  --hidden HIDDEN [HIDDEN ...]\n  --seed SEED\n  --device DEVICE\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "phase3_deep_learning.section08_data_pipeline_and_models.projects.image_dataset_pipeline",
+      "--help"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab",
+    "exit_code": 0,
+    "seconds": 1.4682697299995198,
+    "stdout": "usage: __main__.py [-h] [--root ROOT] [--output OUTPUT] [--generate-demo]\n                   [--workers WORKERS] [--seed SEED]\n\nGenerate optional demo images and inspect a custom directory DataLoader.\n\noptions:\n  -h, --help         show this help message and exit\n  --root ROOT\n  --output OUTPUT\n  --generate-demo\n  --workers WORKERS\n  --seed SEED\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "phase3_deep_learning.section08_data_pipeline_and_models.projects.cnn_image_classifier",
+      "--help"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab",
+    "exit_code": 0,
+    "seconds": 0.9404265430002852,
+    "stdout": "usage: __main__.py [-h] [--synthetic] [--download] [--compare]\n                   [--epochs EPOCHS] [--depth DEPTH] [--batch-size BATCH_SIZE]\n                   [--learning-rate LEARNING_RATE] [--dropout DROPOUT]\n                   [--device DEVICE] [--seed SEED] [--data-root DATA_ROOT]\n                   [--output OUTPUT]\n\nFashionMNIST CNN with a real, reproducible multi-configuration comparison.\n\noptions:\n  -h, --help            show this help message and exit\n  --synthetic\n  --download\n  --compare\n  --epochs EPOCHS\n  --depth DEPTH\n  --batch-size BATCH_SIZE\n  --learning-rate LEARNING_RATE\n  --dropout DROPOUT\n  --device DEVICE\n  --seed SEED\n  --data-root DATA_ROOT\n  --output OUTPUT\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "phase3_deep_learning.section08_data_pipeline_and_models.projects.transfer_learning_classifier",
+      "--help"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab",
+    "exit_code": 0,
+    "seconds": 1.694885056000203,
+    "stdout": "usage: __main__.py [-h] [--output OUTPUT]\n                   [--dataset {synthetic,fashion_mnist,cifar10,folder}]\n                   [--root ROOT] [--download-data] [--pretrained]\n                   [--epochs EPOCHS] [--samples SAMPLES]\n                   [--image-size IMAGE_SIZE]\n                   [--strategies {A,B,C} [{A,B,C} ...]] [--seed SEED]\n                   [--device DEVICE] [--checkpoint CHECKPOINT] [--input INPUT]\n\nTrain A/B/C ResNet18 comparisons or infer one image without downloading\nweights.\n\noptions:\n  -h, --help            show this help message and exit\n  --output OUTPUT\n  --dataset {synthetic,fashion_mnist,cifar10,folder}\n  --root ROOT\n  --download-data\n  --pretrained\n  --epochs EPOCHS\n  --samples SAMPLES\n  --image-size IMAGE_SIZE\n  --strategies {A,B,C} [{A,B,C} ...]\n  --seed SEED\n  --device DEVICE\n  --checkpoint CHECKPOINT\n  --input INPUT\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "training_framework.cli",
+      "--help"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab",
+    "exit_code": 0,
+    "seconds": 1.669490838999991,
+    "stdout": "usage: cli.py [-h] {train,evaluate,predict} ...\n\npython -m training_framework.cli train/evaluate/predict.\n\npositional arguments:\n  {train,evaluate,predict}\n\noptions:\n  -h, --help            show this help message and exit\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "phase3_deep_learning.section08_data_pipeline_and_models.projects.image_dataset_pipeline",
+      "--generate-demo",
+      "--root",
+      "/tmp/python-lab-phase3-smoke-final/images",
+      "--output",
+      "/tmp/python-lab-phase3-smoke-final/manifest.json"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab",
+    "exit_code": 0,
+    "seconds": 1.4693681689996083,
+    "stdout": "{\"train\": 29, \"val\": 7, \"shape\": [8, 3, 32, 32], \"labels\": [2, 1, 0, 0, 2, 0, 2, 2], \"corrupt\": []}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "phase3_deep_learning.section08_data_pipeline_and_models.projects.image_dataset_pipeline.scripts.generate_demo_data",
+      "--root",
+      "/tmp/python-lab-phase3-smoke-final/images"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab",
+    "exit_code": 0,
+    "seconds": 0.10095572800037189,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "phase3_deep_learning.section07_pytorch_fundamentals.projects.mlp_classifier",
+      "--epochs",
+      "5",
+      "--output",
+      "/tmp/python-lab-phase3-smoke-final/mlp"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab",
+    "exit_code": 0,
+    "seconds": 1.8980812549998518,
+    "stdout": "{\"loss\": 0.002293303879495296, \"accuracy\": 1.0, \"samples\": 900}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "phase3_deep_learning.section07_pytorch_fundamentals.projects.mlp_classifier",
+      "--epochs",
+      "1",
+      "--hidden",
+      "64",
+      "32",
+      "--activation",
+      "tanh",
+      "--optimizer",
+      "sgd",
+      "--learning-rate",
+      "0.03",
+      "--output",
+      "/tmp/python-lab-phase3-smoke-final/mlp_sgd"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab",
+    "exit_code": 0,
+    "seconds": 1.831479961999321,
+    "stdout": "{\"loss\": 0.6255822605556912, \"accuracy\": 0.6344444444444445, \"samples\": 900}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "phase3_deep_learning.section07_pytorch_fundamentals.projects.fashion_mnist_classifier",
+      "--synthetic",
+      "--epochs",
+      "2",
+      "--output",
+      "/tmp/python-lab-phase3-smoke-final/fashion"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab",
+    "exit_code": 0,
+    "seconds": 1.7957604530001845,
+    "stdout": "{\"loss\": 0.006263598334044218, \"accuracy\": 1.0, \"samples\": 36}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "phase3_deep_learning.section08_data_pipeline_and_models.projects.cnn_image_classifier",
+      "--synthetic",
+      "--compare",
+      "--epochs",
+      "1",
+      "--output",
+      "/tmp/python-lab-phase3-smoke-final/cnn"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab",
+    "exit_code": 0,
+    "seconds": 3.222761213999547,
+    "stdout": "[{\"model\": \"mlp\", \"depth\": 2, \"batch_size\": 64, \"learning_rate\": 0.001, \"dropout\": 0.2, \"val_loss\": 2.057340621948242, \"test_accuracy\": 0.8518518518518519, \"duration\": 0.08059967399913148, \"parameters\": 101770, \"synthetic\": true}, {\"model\": \"cnn\", \"depth\": 2, \"batch_size\": 64, \"learning_rate\": 0.001, \"dropout\": 0.2, \"val_loss\": 2.328932523727417, \"test_accuracy\": 0.1111111111111111, \"duration\": 0.09774643299988384, \"parameters\": 6186, \"synthetic\": true}, {\"model\": \"cnn\", \"depth\": 3, \"batch_size\": 64, \"learning_rate\": 0.001, \"dropout\": 0.2, \"val_loss\": 2.3031985759735107, \"test_accuracy\": 0.2222222222222222, \"duration\": 0.10374923600011243, \"parameters\": 26090, \"synthetic\": true}, {\"model\": \"cnn\", \"depth\": 2, \"batch_size\": 32, \"learning_rate\": 0.001, \"dropout\": 0.2, \"val_loss\": 2.3283183574676514, \"test_accuracy\": 0.1111111111111111, \"duration\": 0.09484425900063798, \"parameters\": 6186, \"synthetic\": true}, {\"model\": \"cnn\", \"depth\": 2, \"batch_size\": 64, \"learning_rate\": 0.01, \"dropout\": 0.2, \"val_loss\": 2.312994956970215, \"test_accuracy\": 0.1111111111111111, \"duration\": 0.09060248700006923, \"parameters\": 6186, \"synthetic\": true}, {\"model\": \"cnn\", \"depth\": 2, \"batch_size\": 64, \"learning_rate\": 0.001, \"dropout\": 0.4, \"val_loss\": 2.3296399116516113, \"test_accuracy\": 0.1111111111111111, \"duration\": 0.09655750900037674, \"parameters\": 6186, \"synthetic\": true}]\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "phase3_deep_learning.section08_data_pipeline_and_models.projects.transfer_learning_classifier",
+      "--dataset",
+      "synthetic",
+      "--samples",
+      "24",
+      "--image-size",
+      "32",
+      "--epochs",
+      "1",
+      "--output",
+      "/tmp/python-lab-phase3-smoke-final/transfer"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab",
+    "exit_code": 0,
+    "seconds": 3.3115041400005794,
+    "stdout": "[{\"strategy\": \"A\", \"val_accuracy\": 0.5, \"val_loss\": 1.0479495525360107, \"training_seconds\": 0.20138484299968695, \"trainable_parameters\": 1539, \"total_parameters\": 11178051, \"pretrained\": false, \"dataset\": \"synthetic\", \"learning_rate\": 0.001}, {\"strategy\": \"B\", \"val_accuracy\": 0.5, \"val_loss\": 0.9980840682983398, \"training_seconds\": 0.5749054810003145, \"trainable_parameters\": 8395267, \"total_parameters\": 11178051, \"pretrained\": false, \"dataset\": \"synthetic\", \"learning_rate\": 0.0001}, {\"strategy\": \"C\", \"val_accuracy\": 1.0, \"val_loss\": 0.9723647236824036, \"training_seconds\": 0.6316761790003511, \"trainable_parameters\": 11178051, \"total_parameters\": 11178051, \"pretrained\": false, \"dataset\": \"synthetic\", \"learning_rate\": 0.0001}]\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "phase3_deep_learning.section08_data_pipeline_and_models.projects.transfer_learning_classifier",
+      "--checkpoint",
+      "/tmp/python-lab-phase3-smoke-final/transfer/B/best.pt",
+      "--input",
+      "/tmp/python-lab-phase3-smoke-final/images/cat/generated_000.png"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab",
+    "exit_code": 0,
+    "seconds": 1.7973073240000303,
+    "stdout": "{\"index\": 1, \"label\": \"class_1\", \"probabilities\": [0.3090638816356659, 0.38242968916893005, 0.3085065186023712]}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "training_framework.cli",
+      "train",
+      "--config",
+      "configs/default.yaml",
+      "--run-dir",
+      "/tmp/python-lab-phase3-smoke-final/framework",
+      "--epochs",
+      "1"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab/phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework",
+    "exit_code": 0,
+    "seconds": 1.741404741000224,
+    "stdout": "{\"epochs_completed\": 1, \"run_dir\": \"/tmp/python-lab-phase3-smoke-final/framework\"}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "training_framework.cli",
+      "train",
+      "--config",
+      "configs/default.yaml",
+      "--run-dir",
+      "/tmp/python-lab-phase3-smoke-final/framework",
+      "--epochs",
+      "2",
+      "--resume",
+      "/tmp/python-lab-phase3-smoke-final/framework/checkpoints/latest.pt"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab/phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework",
+    "exit_code": 0,
+    "seconds": 1.770534600999781,
+    "stdout": "{\"epochs_completed\": 2, \"run_dir\": \"/tmp/python-lab-phase3-smoke-final/framework\"}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "training_framework.cli",
+      "evaluate",
+      "--config",
+      "configs/default.yaml",
+      "--checkpoint",
+      "/tmp/python-lab-phase3-smoke-final/framework/checkpoints/best.pt"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab/phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework",
+    "exit_code": 0,
+    "seconds": 1.7013173630002711,
+    "stdout": "{\"loss\": 2.4949123447489303e-05, \"accuracy\": 1.0, \"samples\": 48}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "phase3_deep_learning.section09_deep_learning_engineering.projects.pytorch_training_framework.scripts.generate_demo_data",
+      "--root",
+      "/tmp/python-lab-phase3-smoke-final/framework_demo",
+      "--sample",
+      "/tmp/python-lab-phase3-smoke-final/sample.jpg"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab/phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework",
+    "exit_code": 0,
+    "seconds": 0.10592451400043501,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "training_framework.cli",
+      "predict",
+      "--checkpoint",
+      "/tmp/python-lab-phase3-smoke-final/framework/checkpoints/best.pt",
+      "--input",
+      "/tmp/python-lab-phase3-smoke-final/sample.jpg"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab/phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework",
+    "exit_code": 0,
+    "seconds": 1.6868388620005135,
+    "stdout": "{\"index\": 2, \"label\": \"class_2\", \"probabilities\": [0.06961535662412643, 0.39008742570877075, 0.5402972102165222]}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "training_framework.cli",
+      "train",
+      "--config",
+      "/home/ai_infra/projects/python-learning-lab/phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/configs/cnn.yaml",
+      "--run-dir",
+      "/tmp/python-lab-phase3-smoke-final/framework_cnn",
+      "--epochs",
+      "1"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab",
+    "exit_code": 0,
+    "seconds": 1.7902254450000328,
+    "stdout": "{\"epochs_completed\": 1, \"run_dir\": \"/tmp/python-lab-phase3-smoke-final/framework_cnn\"}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "training_framework.cli",
+      "train",
+      "--config",
+      "/tmp/python-lab-phase3-smoke-final/folder.yaml"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab",
+    "exit_code": 0,
+    "seconds": 1.8083266149997144,
+    "stdout": "{\"epochs_completed\": 1, \"run_dir\": \"/tmp/python-lab-phase3-smoke-final/framework_folder\"}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/home/ai_infra/projects/python-learning-lab/.venv/bin/python",
+      "-m",
+      "training_framework.cli",
+      "predict",
+      "--checkpoint",
+      "/tmp/python-lab-phase3-smoke-final/framework_folder/checkpoints/best.pt",
+      "--input",
+      "/tmp/python-lab-phase3-smoke-final/images/bird/generated_000.png"
+    ],
+    "cwd": "/home/ai_infra/projects/python-learning-lab",
+    "exit_code": 0,
+    "seconds": 1.6699017950004418,
+    "stdout": "{\"index\": 0, \"label\": \"bird\", \"probabilities\": [0.6851235628128052, 0.2034420371055603, 0.11143437772989273]}\n",
+    "stderr": ""
+  }
+]

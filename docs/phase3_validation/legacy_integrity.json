@@ -1,0 +1,492 @@
+{
+  "algorithm": "SHA-256",
+  "checked": 121,
+  "unchanged": 121,
+  "changed": [],
+  "files": {
+    "phase1_python_programming/section01_data_structures/README.md": {
+      "before": "de2042860fad2ea47f915d77e65feeaf5152e8442d99192af356c38620d0af8c",
+      "after": "de2042860fad2ea47f915d77e65feeaf5152e8442d99192af356c38620d0af8c"
+    },
+    "phase1_python_programming/section01_data_structures/assessment/cases.py": {
+      "before": "582fb86bc7c21e2de3ef8a9d1d45c4a6003544c12cdc0549965442c96167e19f",
+      "after": "582fb86bc7c21e2de3ef8a9d1d45c4a6003544c12cdc0549965442c96167e19f"
+    },
+    "phase1_python_programming/section01_data_structures/assessment/correctness_plugin.py": {
+      "before": "f14b419d2e356599591dd294eccdfd5b290423b65a26a9c2d7e5b3750370fe1c",
+      "after": "f14b419d2e356599591dd294eccdfd5b290423b65a26a9c2d7e5b3750370fe1c"
+    },
+    "phase1_python_programming/section01_data_structures/assessment/engine.py": {
+      "before": "b36b8f41a62e9add04ab0b74762dd2142e2387d452d0815ce3ece02fcaa3841e",
+      "after": "b36b8f41a62e9add04ab0b74762dd2142e2387d452d0815ce3ece02fcaa3841e"
+    },
+    "phase1_python_programming/section01_data_structures/assessment/grader.py": {
+      "before": "415426fc3bdb2c4448251155a1905fca116af7e5c4f80828e87acd35eb7e6b6d",
+      "after": "415426fc3bdb2c4448251155a1905fca116af7e5c4f80828e87acd35eb7e6b6d"
+    },
+    "phase1_python_programming/section01_data_structures/assessment/worker.py": {
+      "before": "4c049b44f7eee2eb8175077827dd5dd8f236899fb653e34c5f7cf7c6e234f931",
+      "after": "4c049b44f7eee2eb8175077827dd5dd8f236899fb653e34c5f7cf7c6e234f931"
+    },
+    "phase1_python_programming/section01_data_structures/assessment/workloads.py": {
+      "before": "119863f294c21da49a551f8bb8350a8697ed98422295bc60f5997cef00fc6c32",
+      "after": "119863f294c21da49a551f8bb8350a8697ed98422295bc60f5997cef00fc6c32"
+    },
+    "phase1_python_programming/section01_data_structures/conftest.py": {
+      "before": "288a1beacc2aa414622bc05defe209b616b5a5a43e63088e6e5f5e77c43d2b01",
+      "after": "288a1beacc2aa414622bc05defe209b616b5a5a43e63088e6e5f5e77c43d2b01"
+    },
+    "phase1_python_programming/section01_data_structures/exercise_catalog.md": {
+      "before": "b74cb08a00758d002cd709e09de9c002028f257a978e9c491b0fa1480e50c384",
+      "after": "b74cb08a00758d002cd709e09de9c002028f257a978e9c491b0fa1480e50c384"
+    },
+    "phase1_python_programming/section01_data_structures/exercises/advanced_structures.py": {
+      "before": "2ede00c23cb0dab10c254e84fb73963326a774ac302ab7408f06f481290a4066",
+      "after": "2ede00c23cb0dab10c254e84fb73963326a774ac302ab7408f06f481290a4066"
+    },
+    "phase1_python_programming/section01_data_structures/exercises/basic_structures.py": {
+      "before": "856d95beb95ea3af43f1feb81dccdaf60fa3e9575e1d5409736825cf98bfdc69",
+      "after": "856d95beb95ea3af43f1feb81dccdaf60fa3e9575e1d5409736825cf98bfdc69"
+    },
+    "phase1_python_programming/section01_data_structures/exercises/iterators_generators.py": {
+      "before": "d27bd1030a6a328e372028a163374ebfb4fe58ad8a9aeac1fd1d7d4850423710",
+      "after": "d27bd1030a6a328e372028a163374ebfb4fe58ad8a9aeac1fd1d7d4850423710"
+    },
+    "phase1_python_programming/section01_data_structures/projects/text_analyzer/README.md": {
+      "before": "ef2bf82e61015f812db3d909895dc4b4a9fceba4bd87591a731264a39240e977",
+      "after": "ef2bf82e61015f812db3d909895dc4b4a9fceba4bd87591a731264a39240e977"
+    },
+    "phase1_python_programming/section01_data_structures/projects/text_analyzer/data/sample.txt": {
+      "before": "ead0454ccd704c8350c6f823c8f4cdbc25e01e5cb11066be21db80ef1039fef4",
+      "after": "ead0454ccd704c8350c6f823c8f4cdbc25e01e5cb11066be21db80ef1039fef4"
+    },
+    "phase1_python_programming/section01_data_structures/projects/text_analyzer/src/text_analyzer/__init__.py": {
+      "before": "77ce1a00d0695dca1699a0971e30d097d9e88071b45f0d369795c486006f4509",
+      "after": "77ce1a00d0695dca1699a0971e30d097d9e88071b45f0d369795c486006f4509"
+    },
+    "phase1_python_programming/section01_data_structures/projects/text_analyzer/src/text_analyzer/analyzer.py": {
+      "before": "137f294cda4fc1e8104cdb4eb3f3393a657cb48917b8d88c6dfce44ade4a75ca",
+      "after": "137f294cda4fc1e8104cdb4eb3f3393a657cb48917b8d88c6dfce44ade4a75ca"
+    },
+    "phase1_python_programming/section01_data_structures/projects/text_analyzer/src/text_analyzer/cli.py": {
+      "before": "985db9ef7baae901bcd1a7a4db3181fe39ca7b339e954496b755544fd40d7ed9",
+      "after": "985db9ef7baae901bcd1a7a4db3181fe39ca7b339e954496b755544fd40d7ed9"
+    },
+    "phase1_python_programming/section01_data_structures/projects/text_analyzer/src/text_analyzer/ngram.py": {
+      "before": "a3bbd339814c94908f41b1c9e178a1402455de7d6326a85d3af8dbe38b34d92d",
+      "after": "a3bbd339814c94908f41b1c9e178a1402455de7d6326a85d3af8dbe38b34d92d"
+    },
+    "phase1_python_programming/section01_data_structures/projects/text_analyzer/src/text_analyzer/reader.py": {
+      "before": "23d339f6504e49431340ae0243d08565ca8bffccdf997854adea311fd36cd45b",
+      "after": "23d339f6504e49431340ae0243d08565ca8bffccdf997854adea311fd36cd45b"
+    },
+    "phase1_python_programming/section01_data_structures/projects/text_analyzer/src/text_analyzer/reporter.py": {
+      "before": "abe4c17bd0007129d9420243a4da9fd3ccc3a6cb5c479719b74c2633f29bfbeb",
+      "after": "abe4c17bd0007129d9420243a4da9fd3ccc3a6cb5c479719b74c2633f29bfbeb"
+    },
+    "phase1_python_programming/section01_data_structures/projects/text_analyzer/src/text_analyzer/tokenizer.py": {
+      "before": "cd877c8dcd0cf94373511689b67053c85d42d9b7c633b41a5ee286d456b6236f",
+      "after": "cd877c8dcd0cf94373511689b67053c85d42d9b7c633b41a5ee286d456b6236f"
+    },
+    "phase1_python_programming/section01_data_structures/projects/text_analyzer/tests/test_analyzer.py": {
+      "before": "9108997102f4cb76c0a8e2d2e27372fd3929f29f8d32e9167abb46b1d3c2efc7",
+      "after": "9108997102f4cb76c0a8e2d2e27372fd3929f29f8d32e9167abb46b1d3c2efc7"
+    },
+    "phase1_python_programming/section01_data_structures/projects/text_analyzer/tests/test_ngram.py": {
+      "before": "bf963897ed72195b83d7aec361a678607b14dd0304017c3ac8446ae97c63c8b6",
+      "after": "bf963897ed72195b83d7aec361a678607b14dd0304017c3ac8446ae97c63c8b6"
+    },
+    "phase1_python_programming/section01_data_structures/projects/text_analyzer/tests/test_reader.py": {
+      "before": "9507f414dfc8489d2ada0e612e0da3f24853ca00c92bb945fb35dc8f492931c9",
+      "after": "9507f414dfc8489d2ada0e612e0da3f24853ca00c92bb945fb35dc8f492931c9"
+    },
+    "phase1_python_programming/section01_data_structures/projects/text_analyzer/tests/test_tokenizer.py": {
+      "before": "1c76c9824e5e94e2c8e804b4bd27dc7e9159810f1a8d490e290acb746835a80f",
+      "after": "1c76c9824e5e94e2c8e804b4bd27dc7e9159810f1a8d490e290acb746835a80f"
+    },
+    "phase1_python_programming/section01_data_structures/tests/test_advanced_performance.py": {
+      "before": "5d7a623bc92709eadefc23bd9eb844f48c27eb4afbb3bbbf6075292a01435c85",
+      "after": "5d7a623bc92709eadefc23bd9eb844f48c27eb4afbb3bbbf6075292a01435c85"
+    },
+    "phase1_python_programming/section01_data_structures/tests/test_advanced_structures.py": {
+      "before": "5a41f6873b599382a9137008f196f6e0af87c3a2ac1b7fec2e8a533f62929233",
+      "after": "5a41f6873b599382a9137008f196f6e0af87c3a2ac1b7fec2e8a533f62929233"
+    },
+    "phase1_python_programming/section01_data_structures/tests/test_basic_structures.py": {
+      "before": "c06df1bd0bb32188de14c001163d6065a1719bee4891c9568d41de21eed2f021",
+      "after": "c06df1bd0bb32188de14c001163d6065a1719bee4891c9568d41de21eed2f021"
+    },
+    "phase1_python_programming/section01_data_structures/tests/test_iterators_generators.py": {
+      "before": "e0c9bee825cfa6ddde189b5fa5710b64dac1384f532f981e72b90e878c2cd0cb",
+      "after": "e0c9bee825cfa6ddde189b5fa5710b64dac1384f532f981e72b90e878c2cd0cb"
+    },
+    "phase1_python_programming/section02_python_engineering/README.md": {
+      "before": "f72ca06d8f677152368d91c9787229e8802f79b1554d9cf761d71cf7a8aa37c2",
+      "after": "f72ca06d8f677152368d91c9787229e8802f79b1554d9cf761d71cf7a8aa37c2"
+    },
+    "phase1_python_programming/section02_python_engineering/exercise_catalog.md": {
+      "before": "1b4383aab8cb19c0a17f0b9b0b177b45067bc68cde4ff3a900cb3e78a2b69535",
+      "after": "1b4383aab8cb19c0a17f0b9b0b177b45067bc68cde4ff3a900cb3e78a2b69535"
+    },
+    "phase1_python_programming/section02_python_engineering/exercises/error_handling.py": {
+      "before": "66ee8a6dab5788f8fb16300b97ea964a7835009948fc088f0c5460a284c97b23",
+      "after": "66ee8a6dab5788f8fb16300b97ea964a7835009948fc088f0c5460a284c97b23"
+    },
+    "phase1_python_programming/section02_python_engineering/exercises/file_operations.py": {
+      "before": "aa60532ef27524f75486be4ab6ecb7444ba01dfb0b57503989788104d825cc76",
+      "after": "aa60532ef27524f75486be4ab6ecb7444ba01dfb0b57503989788104d825cc76"
+    },
+    "phase1_python_programming/section02_python_engineering/exercises/oop_and_testing.py": {
+      "before": "1ced01b9efb17cb794994d5ed3bfd81854285c26418a6a65c72a4b5cc8401c3d",
+      "after": "1ced01b9efb17cb794994d5ed3bfd81854285c26418a6a65c72a4b5cc8401c3d"
+    },
+    "phase1_python_programming/section02_python_engineering/projects/dataset_cleaning_pipeline/README.md": {
+      "before": "685935e0d31ab1b875636f15e75d7d5d5d32274067ef443c662a8648a8418062",
+      "after": "685935e0d31ab1b875636f15e75d7d5d5d32274067ef443c662a8648a8418062"
+    },
+    "phase1_python_programming/section02_python_engineering/projects/dataset_cleaning_pipeline/src/cleaning_pipeline.py": {
+      "before": "524370737fe4bbe0023e91b611b178b629c79a867ab080c4f0676cd4e4b27edf",
+      "after": "524370737fe4bbe0023e91b611b178b629c79a867ab080c4f0676cd4e4b27edf"
+    },
+    "phase1_python_programming/section02_python_engineering/projects/dataset_cleaning_pipeline/tests/test_pipeline.py": {
+      "before": "a0177b473f62dc8c29b4f10e796995a6deca9cc8802808708bf4ed7bdf8c4315",
+      "after": "a0177b473f62dc8c29b4f10e796995a6deca9cc8802808708bf4ed7bdf8c4315"
+    },
+    "phase1_python_programming/section02_python_engineering/projects/dataset_inspector/README.md": {
+      "before": "6db01745b5b0b25e9f2cea82d7b7444f718bea8513927a638101f3ddb1c76021",
+      "after": "6db01745b5b0b25e9f2cea82d7b7444f718bea8513927a638101f3ddb1c76021"
+    },
+    "phase1_python_programming/section02_python_engineering/projects/dataset_inspector/examples/sample.csv": {
+      "before": "1f333a2e719361b9c9e583eb1f07d1a18ed53a374a567bf3e7bbdaebf4d3d728",
+      "after": "1f333a2e719361b9c9e583eb1f07d1a18ed53a374a567bf3e7bbdaebf4d3d728"
+    },
+    "phase1_python_programming/section02_python_engineering/projects/dataset_inspector/examples/sample.json": {
+      "before": "ab138bbef8490c2de7471cebb5d35a8f08f8f4afc1ef667b781b8e865d8f4aee",
+      "after": "ab138bbef8490c2de7471cebb5d35a8f08f8f4afc1ef667b781b8e865d8f4aee"
+    },
+    "phase1_python_programming/section02_python_engineering/projects/dataset_inspector/src/dataset_inspector/__init__.py": {
+      "before": "033081b9f07e2605d4b6bd3d94a3e2c67a3a9d413449713b5dffa065469f2843",
+      "after": "033081b9f07e2605d4b6bd3d94a3e2c67a3a9d413449713b5dffa065469f2843"
+    },
+    "phase1_python_programming/section02_python_engineering/projects/dataset_inspector/src/dataset_inspector/__main__.py": {
+      "before": "ea5800cce4dfb04c3d2b41dbc2a4843fe8c0e460ba0f825f3d1d6cfccd2be792",
+      "after": "ea5800cce4dfb04c3d2b41dbc2a4843fe8c0e460ba0f825f3d1d6cfccd2be792"
+    },
+    "phase1_python_programming/section02_python_engineering/projects/dataset_inspector/src/dataset_inspector/manager.py": {
+      "before": "f9cac75c8f890551e0b14611199787d7ea65053666658e2f709576e3aefd7fba",
+      "after": "f9cac75c8f890551e0b14611199787d7ea65053666658e2f709576e3aefd7fba"
+    },
+    "phase1_python_programming/section02_python_engineering/projects/dataset_inspector/src/dataset_inspector/reporter.py": {
+      "before": "90413a1fce3edd885d07c8a7d631fb859d552767a6d4b89847960d08d2dced39",
+      "after": "90413a1fce3edd885d07c8a7d631fb859d552767a6d4b89847960d08d2dced39"
+    },
+    "phase1_python_programming/section02_python_engineering/projects/dataset_inspector/tests/test_manager.py": {
+      "before": "443c9d8559087a0df5780dfcb7148d9119bf2f390e3d6313ccce50aa4a4b1285",
+      "after": "443c9d8559087a0df5780dfcb7148d9119bf2f390e3d6313ccce50aa4a4b1285"
+    },
+    "phase1_python_programming/section02_python_engineering/projects/file_toolkit/README.md": {
+      "before": "994679a8eceda64b2f1b4f5439629887964e8c112ba544d1ddbbf71ff940aad5",
+      "after": "994679a8eceda64b2f1b4f5439629887964e8c112ba544d1ddbbf71ff940aad5"
+    },
+    "phase1_python_programming/section02_python_engineering/projects/file_toolkit/src/file_toolkit/__init__.py": {
+      "before": "e11e95f3813b8f3844c3a600f06a21c73fe70b877215b9a849a359f0b33126a8",
+      "after": "e11e95f3813b8f3844c3a600f06a21c73fe70b877215b9a849a359f0b33126a8"
+    },
+    "phase1_python_programming/section02_python_engineering/projects/file_toolkit/src/file_toolkit/cli.py": {
+      "before": "53d8d398c73369a250e1b5525c49420b55b11df01d84ab3682a61a2fffc0ed59",
+      "after": "53d8d398c73369a250e1b5525c49420b55b11df01d84ab3682a61a2fffc0ed59"
+    },
+    "phase1_python_programming/section02_python_engineering/projects/file_toolkit/src/file_toolkit/operations.py": {
+      "before": "75de1f5f7176ed91e6b1d39a8b4470bf59943dfcb7546f52e1efeb4f1d7036a6",
+      "after": "75de1f5f7176ed91e6b1d39a8b4470bf59943dfcb7546f52e1efeb4f1d7036a6"
+    },
+    "phase1_python_programming/section02_python_engineering/projects/file_toolkit/tests/test_operations.py": {
+      "before": "e15229cdd2a6ec9c4bc100dc6cded739398ed004bc2910ad66213e14e6dffa0e",
+      "after": "e15229cdd2a6ec9c4bc100dc6cded739398ed004bc2910ad66213e14e6dffa0e"
+    },
+    "phase1_python_programming/section02_python_engineering/tests/test_error_handling.py": {
+      "before": "eae21579b00bfbddd411d440d1bbdcb0c9e879534019fc0760230ee21f30e2a0",
+      "after": "eae21579b00bfbddd411d440d1bbdcb0c9e879534019fc0760230ee21f30e2a0"
+    },
+    "phase1_python_programming/section02_python_engineering/tests/test_file_operations.py": {
+      "before": "cc8b4fd00323820f340c23a5d9775d40467a4d69c8dea9b07ff739c8c05a661f",
+      "after": "cc8b4fd00323820f340c23a5d9775d40467a4d69c8dea9b07ff739c8c05a661f"
+    },
+    "phase1_python_programming/section02_python_engineering/tests/test_oop_and_testing.py": {
+      "before": "bb8f40dbee78f8f566d0024a0444bd4903dd36275a384df32a368df1135a9945",
+      "after": "bb8f40dbee78f8f566d0024a0444bd4903dd36275a384df32a368df1135a9945"
+    },
+    "phase2_data_science/section03_numpy/README.md": {
+      "before": "58c779c6ad46cba291d357360bcd01ad8ec4d71d426c7dd35637dc957ff55b2a",
+      "after": "58c779c6ad46cba291d357360bcd01ad8ec4d71d426c7dd35637dc957ff55b2a"
+    },
+    "phase2_data_science/section03_numpy/exercise_catalog.md": {
+      "before": "02507cd72a2de9a3bceda9dc5eac4144fa4a941da4b4bd269b60753588d89b6a",
+      "after": "02507cd72a2de9a3bceda9dc5eac4144fa4a941da4b4bd269b60753588d89b6a"
+    },
+    "phase2_data_science/section03_numpy/exercises/array_operations.py": {
+      "before": "56fbc703c969280ce370c44dd023da563b514f43c9437a8f4282c8f92f737b53",
+      "after": "56fbc703c969280ce370c44dd023da563b514f43c9437a8f4282c8f92f737b53"
+    },
+    "phase2_data_science/section03_numpy/exercises/broadcasting.py": {
+      "before": "fba4c7db176961b6158d8d49766eee275a98a1f95c51ae99f77a25f9c0de671e",
+      "after": "fba4c7db176961b6158d8d49766eee275a98a1f95c51ae99f77a25f9c0de671e"
+    },
+    "phase2_data_science/section03_numpy/exercises/numerical_computing.py": {
+      "before": "7232951a68846cc9aa4839e0a96849ffcf1285420ab99ac4f4f82414f63f7a16",
+      "after": "7232951a68846cc9aa4839e0a96849ffcf1285420ab99ac4f4f82414f63f7a16"
+    },
+    "phase2_data_science/section03_numpy/projects/image_processor/README.md": {
+      "before": "c7915968a1a81b2da625ba6fca7502608a16c0c8d8dd57c8f5783a65490d9bd2",
+      "after": "c7915968a1a81b2da625ba6fca7502608a16c0c8d8dd57c8f5783a65490d9bd2"
+    },
+    "phase2_data_science/section03_numpy/projects/image_processor/src/image_processor.py": {
+      "before": "f0d0a7746ff20c0d79c7ba970cfcab9864fb3e768f82b4dcef34e307030994ad",
+      "after": "f0d0a7746ff20c0d79c7ba970cfcab9864fb3e768f82b4dcef34e307030994ad"
+    },
+    "phase2_data_science/section03_numpy/projects/image_processor/tests/test_image_processor.py": {
+      "before": "93ae41109c0e3d4f89f1ab9a28f87dc9136142aa9005564462aedc81654ab151",
+      "after": "93ae41109c0e3d4f89f1ab9a28f87dc9136142aa9005564462aedc81654ab151"
+    },
+    "phase2_data_science/section03_numpy/projects/linear_regression/README.md": {
+      "before": "41d79a5b3b01fc54e26ce2117c4d5866344fe628addc4d86a48b10f1bd9de070",
+      "after": "41d79a5b3b01fc54e26ce2117c4d5866344fe628addc4d86a48b10f1bd9de070"
+    },
+    "phase2_data_science/section03_numpy/projects/linear_regression/main.py": {
+      "before": "a5c3203615a66caf6168fddfc61b880d63944b974ef3dc6a4204f414f8477f0c",
+      "after": "a5c3203615a66caf6168fddfc61b880d63944b974ef3dc6a4204f414f8477f0c"
+    },
+    "phase2_data_science/section03_numpy/projects/linear_regression/src/linear_regression.py": {
+      "before": "4a3638459e89fc290a44bb08c44b5fcca4287c1d7e13e5e0a14298cb9697e20b",
+      "after": "4a3638459e89fc290a44bb08c44b5fcca4287c1d7e13e5e0a14298cb9697e20b"
+    },
+    "phase2_data_science/section03_numpy/projects/linear_regression/src/visualization.py": {
+      "before": "0448ad46f9948463c1b43bde8992726883ea4aabb122a62df6afaf67594ce091",
+      "after": "0448ad46f9948463c1b43bde8992726883ea4aabb122a62df6afaf67594ce091"
+    },
+    "phase2_data_science/section03_numpy/projects/linear_regression/tests/test_regression.py": {
+      "before": "fa2ea0810bac7dcabbce17dc11554638ca89cda2f635fce9d243aa78587860e6",
+      "after": "fa2ea0810bac7dcabbce17dc11554638ca89cda2f635fce9d243aa78587860e6"
+    },
+    "phase2_data_science/section03_numpy/projects/vector_similarity/README.md": {
+      "before": "6b8aa0265b361441a8cbcf9d6e4d2165a13dd61d11d5a31195ba45fcace55461",
+      "after": "6b8aa0265b361441a8cbcf9d6e4d2165a13dd61d11d5a31195ba45fcace55461"
+    },
+    "phase2_data_science/section03_numpy/projects/vector_similarity/src/vector_similarity.py": {
+      "before": "5927185a70ec215740e4388a227417e55dc91e2f66d83793f99c28f4c7fc34a0",
+      "after": "5927185a70ec215740e4388a227417e55dc91e2f66d83793f99c28f4c7fc34a0"
+    },
+    "phase2_data_science/section03_numpy/projects/vector_similarity/tests/test_similarity.py": {
+      "before": "8db6a07afc6ec68666b8f26ee0c3fb355d0b7366c364eb87ecbe88a5490708da",
+      "after": "8db6a07afc6ec68666b8f26ee0c3fb355d0b7366c364eb87ecbe88a5490708da"
+    },
+    "phase2_data_science/section03_numpy/tests/test_array_operations.py": {
+      "before": "e97c2a3531016c94ba93effec11b14ba63c2ea7ae009cf543727b1e447ef1467",
+      "after": "e97c2a3531016c94ba93effec11b14ba63c2ea7ae009cf543727b1e447ef1467"
+    },
+    "phase2_data_science/section03_numpy/tests/test_broadcasting.py": {
+      "before": "1f438722081def432c40b57aba144c0e5c5963a91350e2d648164992beaca1ae",
+      "after": "1f438722081def432c40b57aba144c0e5c5963a91350e2d648164992beaca1ae"
+    },
+    "phase2_data_science/section03_numpy/tests/test_numerical_computing.py": {
+      "before": "8648b65171ec80397aecaa86477014fc9b73736f901ca30059b3e83c56211ed2",
+      "after": "8648b65171ec80397aecaa86477014fc9b73736f901ca30059b3e83c56211ed2"
+    },
+    "phase2_data_science/section04_pandas/README.md": {
+      "before": "57492bfc1dacdffcd063703b7e8b4563380955aaba978d0878fe6f95f1709321",
+      "after": "57492bfc1dacdffcd063703b7e8b4563380955aaba978d0878fe6f95f1709321"
+    },
+    "phase2_data_science/section04_pandas/exercise_catalog.md": {
+      "before": "c10241508b7d098ed2f4f7c501efe4f9a7056943f97187c807d6946622005af1",
+      "after": "c10241508b7d098ed2f4f7c501efe4f9a7056943f97187c807d6946622005af1"
+    },
+    "phase2_data_science/section04_pandas/exercises/data_cleaning.py": {
+      "before": "24229d4e9789b3ec164ebe28282a68c202a9377951122f69430d1bd7594c4cf7",
+      "after": "24229d4e9789b3ec164ebe28282a68c202a9377951122f69430d1bd7594c4cf7"
+    },
+    "phase2_data_science/section04_pandas/exercises/dataframe_basics.py": {
+      "before": "ad522f8f7615b1854a1c229bba2ba47885079b855993384c2ce743b66e31602f",
+      "after": "ad522f8f7615b1854a1c229bba2ba47885079b855993384c2ce743b66e31602f"
+    },
+    "phase2_data_science/section04_pandas/exercises/groupby_merge.py": {
+      "before": "900f9bf3d78cec6dbbd5e4d45ea373ac9d525a824d38d54c8b47ace712901c7b",
+      "after": "900f9bf3d78cec6dbbd5e4d45ea373ac9d525a824d38d54c8b47ace712901c7b"
+    },
+    "phase2_data_science/section04_pandas/projects/ecommerce_analysis/README.md": {
+      "before": "d77663a3b880f5c6d829f272dcd3b5f21418cd68bbfe85ee08c6b792c2916274",
+      "after": "d77663a3b880f5c6d829f272dcd3b5f21418cd68bbfe85ee08c6b792c2916274"
+    },
+    "phase2_data_science/section04_pandas/projects/ecommerce_analysis/data/README.md": {
+      "before": "6d654e4c3425a2c388108b7dd69b6ed50375de61b8480968f8a923a49a094a39",
+      "after": "6d654e4c3425a2c388108b7dd69b6ed50375de61b8480968f8a923a49a094a39"
+    },
+    "phase2_data_science/section04_pandas/projects/ecommerce_analysis/main.py": {
+      "before": "1d6b3f9b8818ce991ae18cca9fd06089eab10bb366040e0e09732fc7ea096658",
+      "after": "1d6b3f9b8818ce991ae18cca9fd06089eab10bb366040e0e09732fc7ea096658"
+    },
+    "phase2_data_science/section04_pandas/projects/ecommerce_analysis/reports/README.md": {
+      "before": "db03d00c5ce4940679e7faaea9057dac68dc6068274111dc6ac281dafd760b9a",
+      "after": "db03d00c5ce4940679e7faaea9057dac68dc6068274111dc6ac281dafd760b9a"
+    },
+    "phase2_data_science/section04_pandas/projects/ecommerce_analysis/src/analysis.py": {
+      "before": "994acbad696f814d24e3c83bffc6ce2ea56da0f5255ffa274046862efc86083b",
+      "after": "994acbad696f814d24e3c83bffc6ce2ea56da0f5255ffa274046862efc86083b"
+    },
+    "phase2_data_science/section04_pandas/projects/ecommerce_analysis/src/cleaning.py": {
+      "before": "d76d029c3df951fa3f423948727057a39ac85e29f64784c6c55a36e15c348306",
+      "after": "d76d029c3df951fa3f423948727057a39ac85e29f64784c6c55a36e15c348306"
+    },
+    "phase2_data_science/section04_pandas/projects/ecommerce_analysis/src/data_loader.py": {
+      "before": "a994c23aa71825ee19a78338e56b53ba5f193a84d604ee81563f6325d2282881",
+      "after": "a994c23aa71825ee19a78338e56b53ba5f193a84d604ee81563f6325d2282881"
+    },
+    "phase2_data_science/section04_pandas/projects/ecommerce_analysis/src/reporting.py": {
+      "before": "51d543b63501a495fec7acabab1e0c80d2c2737eb3c07e453dabc102655b7d12",
+      "after": "51d543b63501a495fec7acabab1e0c80d2c2737eb3c07e453dabc102655b7d12"
+    },
+    "phase2_data_science/section04_pandas/projects/ecommerce_analysis/tests/test_analysis.py": {
+      "before": "0ee40e29961e795b8d4e23a35e04901316de0a7bda063d84e8efd0c9c5516711",
+      "after": "0ee40e29961e795b8d4e23a35e04901316de0a7bda063d84e8efd0c9c5516711"
+    },
+    "phase2_data_science/section04_pandas/tests/test_data_cleaning.py": {
+      "before": "e99cfaf30a4ae153d024408f52e181f7494f44784c01a7b0a8d348570cb7a87b",
+      "after": "e99cfaf30a4ae153d024408f52e181f7494f44784c01a7b0a8d348570cb7a87b"
+    },
+    "phase2_data_science/section04_pandas/tests/test_dataframe_basics.py": {
+      "before": "e31d821c48cd317142f75dd4aedc095d71d3bb1bb79cf595e1d3a8f52a66052b",
+      "after": "e31d821c48cd317142f75dd4aedc095d71d3bb1bb79cf595e1d3a8f52a66052b"
+    },
+    "phase2_data_science/section04_pandas/tests/test_groupby_merge.py": {
+      "before": "9031970479d98f0f667134cd7639b1fc3b692275d3cc734645ed09a2788f4e07",
+      "after": "9031970479d98f0f667134cd7639b1fc3b692275d3cc734645ed09a2788f4e07"
+    },
+    "phase2_data_science/section05_matplotlib/README.md": {
+      "before": "94a1c6907c9a3681df1920679071c7786766ed626de9e8a171f5f4f8107ac3dd",
+      "after": "94a1c6907c9a3681df1920679071c7786766ed626de9e8a171f5f4f8107ac3dd"
+    },
+    "phase2_data_science/section05_matplotlib/exercise_catalog.md": {
+      "before": "6c989eef889522fe7808355144e01c5e82bf3f33581d1f7b0dd8164e33bfb51e",
+      "after": "6c989eef889522fe7808355144e01c5e82bf3f33581d1f7b0dd8164e33bfb51e"
+    },
+    "phase2_data_science/section05_matplotlib/exercises/advanced_plots.py": {
+      "before": "af7edacc298abbe1839630cf094861de55be764eeb5affdf8bb4baf4299a3b4a",
+      "after": "af7edacc298abbe1839630cf094861de55be764eeb5affdf8bb4baf4299a3b4a"
+    },
+    "phase2_data_science/section05_matplotlib/exercises/basic_plots.py": {
+      "before": "8621902bccea4d3c97187e13a9cf384582adee28022406270aacf79e711b6a79",
+      "after": "8621902bccea4d3c97187e13a9cf384582adee28022406270aacf79e711b6a79"
+    },
+    "phase2_data_science/section05_matplotlib/projects/exploratory_data_analysis/README.md": {
+      "before": "9649769bc55331a5d48e6c4ba5c4a1e622bbacb2b08967d071367e5ec43ecc6e",
+      "after": "9649769bc55331a5d48e6c4ba5c4a1e622bbacb2b08967d071367e5ec43ecc6e"
+    },
+    "phase2_data_science/section05_matplotlib/projects/exploratory_data_analysis/src/eda.py": {
+      "before": "1ec9b3e2f95506f23755a0d02c10f275409dbf2f1156a7c8f9ad628cecd1bcc8",
+      "after": "1ec9b3e2f95506f23755a0d02c10f275409dbf2f1156a7c8f9ad628cecd1bcc8"
+    },
+    "phase2_data_science/section05_matplotlib/projects/exploratory_data_analysis/tests/test_eda.py": {
+      "before": "e9a338449801998745429e438273c498c2b26fdf7ac091766e020b17841b7547",
+      "after": "e9a338449801998745429e438273c498c2b26fdf7ac091766e020b17841b7547"
+    },
+    "phase2_data_science/section05_matplotlib/projects/training_visualizer/README.md": {
+      "before": "f5ff0d60cc92ade9a081f0cdd9e3073ea6c360d2b085edfccfbac17bef394a8a",
+      "after": "f5ff0d60cc92ade9a081f0cdd9e3073ea6c360d2b085edfccfbac17bef394a8a"
+    },
+    "phase2_data_science/section05_matplotlib/projects/training_visualizer/src/training_visualizer.py": {
+      "before": "0c928d5f591d6c0ce2d482bd49211740a930df667fc97358cb5337ba6777d918",
+      "after": "0c928d5f591d6c0ce2d482bd49211740a930df667fc97358cb5337ba6777d918"
+    },
+    "phase2_data_science/section05_matplotlib/projects/training_visualizer/tests/test_visualizer.py": {
+      "before": "c3f82f215e62c3849211cd1f2c03a2cdb6e83f3cd95c2f71bed65a76eec695db",
+      "after": "c3f82f215e62c3849211cd1f2c03a2cdb6e83f3cd95c2f71bed65a76eec695db"
+    },
+    "phase2_data_science/section05_matplotlib/tests/test_advanced_plots.py": {
+      "before": "ef23e5b667fadc5bc312173189aec76c833bb267c95e7b692eecceafbbdb067e",
+      "after": "ef23e5b667fadc5bc312173189aec76c833bb267c95e7b692eecceafbbdb067e"
+    },
+    "phase2_data_science/section05_matplotlib/tests/test_basic_plots.py": {
+      "before": "ca870ea59e689178a4d0997fc76421d222c2472aa4926dca27164f195346c13b",
+      "after": "ca870ea59e689178a4d0997fc76421d222c2472aa4926dca27164f195346c13b"
+    },
+    "phase2_data_science/section06_sklearn/README.md": {
+      "before": "b0a6ef98f3dc74df9fe47e996e1f269d6befae16a23094b1be856355462f6da8",
+      "after": "b0a6ef98f3dc74df9fe47e996e1f269d6befae16a23094b1be856355462f6da8"
+    },
+    "phase2_data_science/section06_sklearn/exercise_catalog.md": {
+      "before": "ce49108f2c3eed837ac9e1bb28b15ee6bd843d42cc6e438154abc08af6ea8e12",
+      "after": "ce49108f2c3eed837ac9e1bb28b15ee6bd843d42cc6e438154abc08af6ea8e12"
+    },
+    "phase2_data_science/section06_sklearn/exercises/model_evaluation.py": {
+      "before": "0cb4ab60c3b256ba6bae9ca1302db18f38f821d292f533f5f9e04d22cde5028e",
+      "after": "0cb4ab60c3b256ba6bae9ca1302db18f38f821d292f533f5f9e04d22cde5028e"
+    },
+    "phase2_data_science/section06_sklearn/exercises/model_selection.py": {
+      "before": "645f90d53de00ab42941f97a50ca6f09bac59ee7fcc7fc4544eb5fc80e8d34ad",
+      "after": "645f90d53de00ab42941f97a50ca6f09bac59ee7fcc7fc4544eb5fc80e8d34ad"
+    },
+    "phase2_data_science/section06_sklearn/exercises/preprocessing.py": {
+      "before": "9c780295c6e426b7e5e2f39ce517b31e14a87b48e763470398d8a2d06f1a0684",
+      "after": "9c780295c6e426b7e5e2f39ce517b31e14a87b48e763470398d8a2d06f1a0684"
+    },
+    "phase2_data_science/section06_sklearn/projects/machine_learning_workflow/README.md": {
+      "before": "28364fc924de622d8c120268d0d8f7366afa7d6061feae00ad776cdecf321861",
+      "after": "28364fc924de622d8c120268d0d8f7366afa7d6061feae00ad776cdecf321861"
+    },
+    "phase2_data_science/section06_sklearn/projects/machine_learning_workflow/configs/config.yaml": {
+      "before": "8344dd11876d7b8513ad5950caa8abe3bf878a231ddc37ff6b90a60dcdd5237a",
+      "after": "8344dd11876d7b8513ad5950caa8abe3bf878a231ddc37ff6b90a60dcdd5237a"
+    },
+    "phase2_data_science/section06_sklearn/projects/machine_learning_workflow/main.py": {
+      "before": "c8b1ad92053314b1a1894aef82122d661dbed3724056bcb26bdd3e84d35cf755",
+      "after": "c8b1ad92053314b1a1894aef82122d661dbed3724056bcb26bdd3e84d35cf755"
+    },
+    "phase2_data_science/section06_sklearn/projects/machine_learning_workflow/models/README.md": {
+      "before": "36389fbe70791434a50e48f492278990e6c37dc8cc3f3d6540c2015dd31be2cb",
+      "after": "36389fbe70791434a50e48f492278990e6c37dc8cc3f3d6540c2015dd31be2cb"
+    },
+    "phase2_data_science/section06_sklearn/projects/machine_learning_workflow/reports/README.md": {
+      "before": "2637b5680e4b8a551b37476cba3614022b6c98840f84eff99ca4ac11a5d2425d",
+      "after": "2637b5680e4b8a551b37476cba3614022b6c98840f84eff99ca4ac11a5d2425d"
+    },
+    "phase2_data_science/section06_sklearn/projects/machine_learning_workflow/src/data_loader.py": {
+      "before": "82d4ff8e467a1ce7ddcfa154e67b6dc564305aee9367478bfd08fe8cf0c164fe",
+      "after": "82d4ff8e467a1ce7ddcfa154e67b6dc564305aee9367478bfd08fe8cf0c164fe"
+    },
+    "phase2_data_science/section06_sklearn/projects/machine_learning_workflow/src/evaluation.py": {
+      "before": "43121853e3db4ca6056681cce2c6f8d97ee4e07794e056f040ad033fbf4eab40",
+      "after": "43121853e3db4ca6056681cce2c6f8d97ee4e07794e056f040ad033fbf4eab40"
+    },
+    "phase2_data_science/section06_sklearn/projects/machine_learning_workflow/src/models.py": {
+      "before": "8c2d3b3448fa89cc5c91a3a5117ec3d433993c01ca987822d2cf14475e8af3e6",
+      "after": "8c2d3b3448fa89cc5c91a3a5117ec3d433993c01ca987822d2cf14475e8af3e6"
+    },
+    "phase2_data_science/section06_sklearn/projects/machine_learning_workflow/src/pipeline.py": {
+      "before": "16f4f407b1e48bc92c10a6ceb407aecafbd54f5e0d6a6dc91cdf705f67cbd525",
+      "after": "16f4f407b1e48bc92c10a6ceb407aecafbd54f5e0d6a6dc91cdf705f67cbd525"
+    },
+    "phase2_data_science/section06_sklearn/projects/machine_learning_workflow/src/preprocessing.py": {
+      "before": "6b267238d8d41a8c93d45c73e1f54be58d9a47c5fdf804176a22028079744916",
+      "after": "6b267238d8d41a8c93d45c73e1f54be58d9a47c5fdf804176a22028079744916"
+    },
+    "phase2_data_science/section06_sklearn/projects/machine_learning_workflow/src/visualization.py": {
+      "before": "9fd7aef2d4bf4a134af62cada4a3a04c0696ab744fdacba38479129557b3631b",
+      "after": "9fd7aef2d4bf4a134af62cada4a3a04c0696ab744fdacba38479129557b3631b"
+    },
+    "phase2_data_science/section06_sklearn/projects/machine_learning_workflow/tests/test_workflow.py": {
+      "before": "ba7a12b2b19cd9863ecd941033f9fa35b9db8206d18a18934d3fd2043d864e48",
+      "after": "ba7a12b2b19cd9863ecd941033f9fa35b9db8206d18a18934d3fd2043d864e48"
+    },
+    "phase2_data_science/section06_sklearn/tests/test_model_evaluation.py": {
+      "before": "06bcae4439875143f07717ff8cb85abe6a32e4c1ceef20f3a54cf40ee48db56b",
+      "after": "06bcae4439875143f07717ff8cb85abe6a32e4c1ceef20f3a54cf40ee48db56b"
+    },
+    "phase2_data_science/section06_sklearn/tests/test_model_selection.py": {
+      "before": "f22c444295c3587a5b9b60fcdb84fc4e66d78c03ca1256f99e3ecc9c9688e107",
+      "after": "f22c444295c3587a5b9b60fcdb84fc4e66d78c03ca1256f99e3ecc9c9688e107"
+    },
+    "phase2_data_science/section06_sklearn/tests/test_preprocessing.py": {
+      "before": "b3ea8d098d50f7de54fc925cefdecd8cb030d678a69562b58f95843ed6c8d141",
+      "after": "b3ea8d098d50f7de54fc925cefdecd8cb030d678a69562b58f95843ed6c8d141"
+    }
+  }
+}

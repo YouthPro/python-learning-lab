@@ -1,0 +1,131 @@
+{
+  "generated_at": "2026-11-03T05:23:04.612689+00:00",
+  "environment": {
+    "python": "3.12.3",
+    "system": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.15.0+cpu",
+      "torchvision": "0.29.2+cpu",
+      "numpy": "2.5.4",
+      "pandas": "3.1.0",
+      "matplotlib": "3.11.2",
+      "scikit-learn": "1.9.1",
+      "Pillow": "12.3.0",
+      "PyYAML": "6.0.3",
+      "tqdm": "4.70.1",
+      "pytest": "9.1.1",
+      "pytest-cov": "7.1.0",
+      "ruff": "0.16.5"
+    },
+    "tested_device": "cpu"
+  },
+  "curriculum": {
+    "exercises": 43,
+    "sections": {
+      "7": 18,
+      "8": 15,
+      "9": 10
+    },
+    "exercise_test_cases": 130,
+    "todo_function_and_method_bodies": 48,
+    "projects": 6
+  },
+  "tests": {
+    "full": {
+      "passed": 363,
+      "failed": 0,
+      "errors": 0,
+      "deselected": 495,
+      "warnings": 31
+    },
+    "phase12_projects": {
+      "passed": 109
+    },
+    "phase3_projects": {
+      "fashion_mnist_classifier": 3,
+      "mlp_classifier": 3,
+      "cnn_image_classifier": 5,
+      "image_dataset_pipeline": 3,
+      "transfer_learning_classifier": 4,
+      "pytorch_training_framework": 30
+    },
+    "phase3_static_contracts": 47,
+    "legacy_assessment_regression": 28,
+    "exercise_contracts": {
+      "xfailed": 130,
+      "strict_todo_exit_code": 1,
+      "completed_solutions": 0
+    },
+    "final_document_links": {
+      "passed": 1
+    }
+  },
+  "coverage": {
+    "covered_lines": 932,
+    "num_statements": 1093,
+    "percent_covered": 85.26989935956084,
+    "percent_covered_display": "85",
+    "missing_lines": 161,
+    "excluded_lines": 0,
+    "percent_statements_covered": 85.26989935956084,
+    "percent_statements_covered_display": "85"
+  },
+  "smoke": {
+    "projects": 6,
+    "commands": 22,
+    "all_exit_zero": true,
+    "network_disabled": true,
+    "mlp_samples": 6000,
+    "mlp_test_accuracy": 1.0,
+    "framework_resumed_epoch": 2,
+    "rgb_and_grayscale_inference": true,
+    "transfer_trainable_parameters": [
+      1539,
+      8395267,
+      11178051
+    ]
+  },
+  "wheel": {
+    "imported_modules": 65,
+    "all_imports_from_wheel": true,
+    "configs": 3,
+    "demo_images": 6,
+    "model_shapes_valid": true
+  },
+  "preservation": {
+    "phase12_files_checked": 121,
+    "phase12_files_unchanged": 121,
+    "existing_dependencies_preserved": true,
+    "existing_optional_groups_preserved": true,
+    "preexisting_dirty_changes_preserved": true,
+    "preexisting_docs_validation_diff_unchanged": true,
+    "changed_tracked_files_diff_check": "passed; preexisting Phase 1 whitespace kept untouched"
+  },
+  "limitations": [
+    "CUDA/MPS/real AMP hardware not tested",
+    "No real FashionMNIST/CIFAR10/pretrained-weight downloads or benchmark claims",
+    "Exercise solutions intentionally TODO",
+    "Optional TensorBoard/Profiler/text classification not implemented",
+    "Resume is at epoch boundaries; exact reproducibility verified only on this CPU environment",
+    "Python 3.11+ declared; execution verified on Python 3.12 only"
+  ],
+  "artifacts": {
+    "pytest-full.log": "docs/phase3_validation/pytest-full.log",
+    "pytest-full.xml": "docs/phase3_validation/pytest-full.xml",
+    "pytest-phase12.log": "docs/phase3_validation/pytest-phase12.log",
+    "pytest-phase12.xml": "docs/phase3_validation/pytest-phase12.xml",
+    "pytest-exercises.log": "docs/phase3_validation/pytest-exercises.log",
+    "pytest-exercises.xml": "docs/phase3_validation/pytest-exercises.xml",
+    "pytest-strict-todo-expected-failure.log": "docs/phase3_validation/pytest-strict-todo-expected-failure.log",
+    "ruff.log": "docs/phase3_validation/ruff.log",
+    "ruff-format.log": "docs/phase3_validation/ruff-format.log",
+    "wheel-build.log": "docs/phase3_validation/wheel-build.log",
+    "wheel-verification.json": "docs/phase3_validation/wheel-verification.json",
+    "smoke-commands.json": "docs/phase3_validation/smoke-commands.json",
+    "smoke-summary.json": "docs/phase3_validation/smoke-summary.json",
+    "coverage-summary.json": "docs/phase3_validation/coverage-summary.json",
+    "legacy_integrity.json": "docs/phase3_validation/legacy_integrity.json",
+    "pip-check.log": "docs/phase3_validation/pip-check.log",
+    "document-links.log": "docs/phase3_validation/document-links.log"
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "purpose": "Temporary implementation calibration, not learner submission results",
+  "python": "CPython 3.12.3 (64-bit)",
+  "platform": "Linux/WSL2 x86_64",
+  "date": "2026-11-02",
+  "time_repetitions": 3,
+  "memory_repetitions": 1,
+  "results": [
+    {
+      "id": "01",
+      "name": "word_frequency",
+      "seconds": 0.038377042000320216,
+      "time_limit_seconds": 0.25,
+      "peak_python_bytes": 14173,
+      "memory_limit_bytes": 2097152,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "02",
+      "name": "first_unique_char",
+      "seconds": 0.011435415000050853,
+      "time_limit_seconds": 0.15,
+      "peak_python_bytes": 4776,
+      "memory_limit_bytes": 131072,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "03",
+      "name": "deduplicate",
+      "seconds": 0.007728231000328378,
+      "time_limit_seconds": 0.2,
+      "peak_python_bytes": 7864544,
+      "memory_limit_bytes": 12582912,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "04",
+      "name": "two_sum",
+      "seconds": 0.0114042690001952,
+      "time_limit_seconds": 0.25,
+      "peak_python_bytes": 10304076,
+      "memory_limit_bytes": 18874368,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "05",
+      "name": "group_anagrams",
+      "seconds": 0.01366664099987247,
+      "time_limit_seconds": 0.3,
+      "peak_python_bytes": 7671024,
+      "memory_limit_bytes": 10485760,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "06",
+      "name": "top_k_frequent",
+      "seconds": 0.02467003299989301,
+      "time_limit_seconds": 0.3,
+      "peak_python_bytes": 7868544,
+      "memory_limit_bytes": 9437184,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "07",
+      "name": "merge_intervals",
+      "seconds": 0.005918412000028184,
+      "time_limit_seconds": 0.25,
+      "peak_python_bytes": 5300064,
+      "memory_limit_bytes": 12582912,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "08",
+      "name": "longest_unique_substring",
+      "seconds": 0.01737433299967961,
+      "time_limit_seconds": 0.3,
+      "peak_python_bytes": 1088144,
+      "memory_limit_bytes": 2097152,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "09",
+      "name": "is_valid_parentheses",
+      "seconds": 0.004643874999601394,
+      "time_limit_seconds": 0.2,
+      "peak_python_bytes": 801216,
+      "memory_limit_bytes": 3145728,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "10",
+      "name": "flatten_list",
+      "seconds": 0.011674798000058217,
+      "time_limit_seconds": 0.25,
+      "peak_python_bytes": 1476536,
+      "memory_limit_bytes": 5242880,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "11",
+      "name": "rotate_matrix",
+      "seconds": 0.003164343999742414,
+      "time_limit_seconds": 0.25,
+      "peak_python_bytes": 2962416,
+      "memory_limit_bytes": 5242880,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "12",
+      "name": "transpose_matrix",
+      "seconds": 0.003252872999837564,
+      "time_limit_seconds": 0.2,
+      "peak_python_bytes": 2967216,
+      "memory_limit_bytes": 5242880,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "13",
+      "name": "moving_average",
+      "seconds": 0.01239077499940322,
+      "time_limit_seconds": 0.25,
+      "peak_python_bytes": 42832,
+      "memory_limit_bytes": 262144,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "14",
+      "name": "chunked",
+      "seconds": 0.0029224709996924503,
+      "time_limit_seconds": 0.2,
+      "peak_python_bytes": 15252,
+      "memory_limit_bytes": 262144,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "15",
+      "name": "sliding_window",
+      "seconds": 0.026477043000340927,
+      "time_limit_seconds": 0.25,
+      "peak_python_bytes": 3524,
+      "memory_limit_bytes": 262144,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "16",
+      "name": "merge_sorted",
+      "seconds": 0.015260052000485302,
+      "time_limit_seconds": 0.2,
+      "peak_python_bytes": 1484,
+      "memory_limit_bytes": 131072,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "17",
+      "name": "binary_insert",
+      "seconds": 0.0008890700000847573,
+      "time_limit_seconds": 0.1,
+      "peak_python_bytes": 1800088,
+      "memory_limit_bytes": 4194304,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "18",
+      "name": "parse_log_line",
+      "seconds": 0.012623739999980899,
+      "time_limit_seconds": 0.25,
+      "peak_python_bytes": 13005,
+      "memory_limit_bytes": 131072,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "19",
+      "name": "extract_emails",
+      "seconds": 0.006849907000287203,
+      "time_limit_seconds": 0.3,
+      "peak_python_bytes": 9043,
+      "memory_limit_bytes": 1048576,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "20",
+      "name": "LRUCache",
+      "seconds": 0.009678266999799234,
+      "time_limit_seconds": 0.3,
+      "peak_python_bytes": 1114752,
+      "memory_limit_bytes": 2097152,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "21",
+      "name": "memoized_fibonacci",
+      "seconds": 4.165999962424394e-05,
+      "time_limit_seconds": 0.1,
+      "peak_python_bytes": 3632,
+      "memory_limit_bytes": 524288,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "22",
+      "name": "cartesian_pairs",
+      "seconds": 0.01048629599972628,
+      "time_limit_seconds": 0.2,
+      "peak_python_bytes": 16079360,
+      "memory_limit_bytes": 18874368,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "23",
+      "name": "group_consecutive",
+      "seconds": 0.015479142999538453,
+      "time_limit_seconds": 0.2,
+      "peak_python_bytes": 4837080,
+      "memory_limit_bytes": 6291456,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "24",
+      "name": "compose",
+      "seconds": 0.00640996099991753,
+      "time_limit_seconds": 0.2,
+      "peak_python_bytes": 1288,
+      "memory_limit_bytes": 524288,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "25",
+      "name": "safe_map",
+      "seconds": 0.019294147999971756,
+      "time_limit_seconds": 0.2,
+      "peak_python_bytes": 801909,
+      "memory_limit_bytes": 5242880,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "26",
+      "name": "timer",
+      "seconds": 0.008043175000238989,
+      "time_limit_seconds": 0.2,
+      "peak_python_bytes": 1224,
+      "memory_limit_bytes": 131072,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "27",
+      "name": "retry",
+      "seconds": 0.0046792460007054615,
+      "time_limit_seconds": 0.25,
+      "peak_python_bytes": 2240,
+      "memory_limit_bytes": 131072,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "28",
+      "name": "iter_file_batches",
+      "seconds": 0.008551701000214962,
+      "time_limit_seconds": 0.25,
+      "peak_python_bytes": 48678,
+      "memory_limit_bytes": 524288,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "29",
+      "name": "read_lines",
+      "seconds": 0.007898393999312248,
+      "time_limit_seconds": 0.2,
+      "peak_python_bytes": 22699,
+      "memory_limit_bytes": 131072,
+      "time_passed": true,
+      "memory_passed": true
+    },
+    {
+      "id": "30",
+      "name": "custom_sort",
+      "seconds": 0.00865560700003698,
+      "time_limit_seconds": 0.3,
+      "peak_python_bytes": 5517680,
+      "memory_limit_bytes": 7340032,
+      "time_passed": true,
+      "memory_passed": true
+    }
+  ]
+}

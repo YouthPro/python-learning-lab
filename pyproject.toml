@@ -13,21 +13,31 @@ dependencies = ["numpy>=1.26,<3", "pandas>=2.2,<4", "matplotlib>=3.8,<4", "sciki
 [project.optional-dependencies]
 dev = ["pytest>=8,<10", "pytest-cov>=5,<8", "ruff>=0.9,<1"]
 notebook = ["jupyterlab>=4,<5"]
+deep-learning = ["torch>=2.5,<3", "torchvision>=0.20,<1", "tqdm>=4.66,<5"]
 
 [tool.setuptools.packages.find]
-include = ["phase1_python_programming*", "phase2_data_science*", "dataset_inspector*"]
+include = ["phase1_python_programming*", "phase2_data_science*", "phase3_deep_learning*", "dataset_inspector*", "training_framework*"]
 namespaces = true
-exclude = ["*.tests*"]
+exclude = [
+    "*.tests*",
+    "phase1_python_programming.section01_data_structures.leetcode-data-structures-python*",
+]
 
 [tool.setuptools.package-data]
 "phase1_python_programming.section01_data_structures.projects.text_analyzer" = ["data/sample.txt"]
 "phase1_python_programming.section02_python_engineering.projects.dataset_inspector" = ["examples/*.csv", "examples/*.json"]
 "phase2_data_science.section06_sklearn.projects.machine_learning_workflow" = ["configs/config.yaml"]
+"phase3_deep_learning.section09_deep_learning_engineering.projects.pytorch_training_framework" = ["configs/*.yaml"]
+"phase3_deep_learning.section08_data_pipeline_and_models.projects.image_dataset_pipeline" = ["data/demo/*/*.png", "data/demo/generation.json"]
 
 [tool.pytest.ini_options]
-addopts = "--import-mode=importlib -rfE"
-testpaths = ["phase1_python_programming", "phase2_data_science", "tests"]
-markers = ["exercise: learner implementation contracts"]
+addopts = "--import-mode=importlib -rfE -m 'not exercise'"
+testpaths = ["phase1_python_programming", "phase2_data_science", "phase3_deep_learning", "tests"]
+markers = [
+    "exercise: learner implementation contracts",
+    "advanced_time: Advanced Time Tests (opt-in)",
+    "advanced_memory: Advanced Memory Tests (opt-in)",
+]
 
 [tool.ruff]
 target-version = "py311"

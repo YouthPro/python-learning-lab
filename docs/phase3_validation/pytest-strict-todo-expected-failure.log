@@ -1,0 +1,35 @@
+F
+=================================== FAILURES ===================================
+____________________ test_compute_scalar_gradient[0.0-3.0] _____________________
+
+value = 0.0, expected = 3.0
+
+    @pytest.mark.parametrize("value,expected", [(0.0, 3.0), (1.0, 10.0), (-2.0, 7.0)])
+    def test_compute_scalar_gradient(value, expected):
+        x = torch.tensor(value, requires_grad=True)
+>       out = m.compute_scalar_gradient(x)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+phase3_deep_learning/section07_pytorch_fundamentals/tests/test_autograd.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = tensor(0., requires_grad=True)
+
+    def compute_scalar_gradient(x: Tensor) -> Tensor:
+        """09. Scalar Gradient.
+    
+        Differentiate f(x)=x^3+2*x^2+3*x for a scalar floating tensor; return detached derivative without modifying caller x.grad.
+        Input Shape -> Output Shape: [] -> []
+        Expected dtype: same floating dtype
+        Grad / computation graph: construct fresh leaf, backward then detach result
+        Hint: On paper: derivative of each power, then add. Avoid wrapping an existing graph accidentally.
+        """
+        # TODO: implement the documented contract.
+>       raise NotImplementedError
+E       NotImplementedError
+
+phase3_deep_learning/section07_pytorch_fundamentals/exercises/autograd.py:16: NotImplementedError
+=========================== short test summary info ============================
+FAILED phase3_deep_learning/section07_pytorch_fundamentals/tests/test_autograd.py::test_compute_scalar_gradient[0.0-3.0]
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed, 48 deselected in 0.91s

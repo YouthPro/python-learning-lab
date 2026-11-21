@@ -8,6 +8,9 @@ from pathlib import Path
 def main() -> int:
     root = Path(__file__).resolve().parents[1]
     arguments = sys.argv[1:]
+    if "--strict-exercises" in arguments and "-m" not in arguments:
+        # Preserve strict-all behavior despite pytest's new project-only default.
+        arguments = ["-m", "", *arguments]
     if "--core" in arguments:
         arguments.remove("--core")
         # Explicit subset, never an automatic dependency-based skip.

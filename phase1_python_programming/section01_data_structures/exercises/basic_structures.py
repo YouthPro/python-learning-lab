@@ -12,9 +12,18 @@ def word_frequency(text: str) -> dict[str, int]:
     边界: 空文本返回 {}；数字和标点是分隔符。
     Hint: 优先查阅本 Section 官方参考资料；不要修改测试约定。
     """
+    counts = {}
+    words = ""
+    for word in text:
+        if word.isascii() and word.isalpha():
+            words += word.lower()
+        elif words:
+            counts[words] = counts.get(words, 0) + 1
+            words = ""
 
-    # TODO: Implement your solution
-    raise NotImplementedError
+    if words:
+        counts[words] = counts.get(words, 0) + 1
+    return counts
 
 
 def first_unique_char(s: str) -> int:
@@ -188,6 +197,18 @@ def transpose_matrix(matrix: list[list[int]]) -> list[list[int]]:
     边界: [] 与零列矩阵返回 []。
     Hint: 优先查阅本 Section 官方参考资料；不要修改测试约定。
     """
+    if matrix == []:
+        return []
+    m = len(matrix[0])
+    n = len(matrix)
 
-    # TODO: Implement your solution
-    raise NotImplementedError
+    if any(len(row) != m for row in matrix):
+        raise ValueError("矩阵各行长度必须一致")
+
+    new_matrix = [[0] * n for _ in range(m)]
+
+    for i in range(len(matrix)):
+        for j in range(len(matrix[i])):
+            new_matrix[j][i] = matrix[i][j]
+
+    return new_matrix

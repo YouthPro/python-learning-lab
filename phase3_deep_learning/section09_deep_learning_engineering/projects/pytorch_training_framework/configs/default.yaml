@@ -1,0 +1,32 @@
+# Paths are relative to this project directory (the config parent parent).
+seed: 42
+device: cpu
+threads: 2
+run_dir: .
+data:
+  kind: synthetic
+  samples: 240
+  val_ratio: 0.2
+  num_workers: 0
+model:
+  name: mlp
+  input_shape: [1, 16, 16]
+  num_classes: 3
+  hidden_dims: [32]
+  dropout: 0.1
+training:
+  epochs: 3
+  batch_size: 32
+  gradient_accumulation: 1
+  max_grad_norm: 1.0
+  amp: false
+optimizer:
+  name: adam
+  lr: 0.01
+scheduler:
+  name: step
+  step_size: 2
+  gamma: 0.5
+early_stopping:
+  patience: 8
+  min_delta: 0.0

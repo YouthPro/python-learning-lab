@@ -41,3 +41,14 @@ python scripts/smoke_projects.py --core
 ```
 
 `--core` 是显式选择，仅执行标准库/NumPy/Matplotlib 核心测试，保留整个仓库的静态结构检查，并排除依赖 Pandas/Scikit-learn 的执行路径。默认命令仍执行全量测试。
+
+## 2026-11-02：Section 01 性能评估扩展
+
+以上 207 项通过的计数为首次交付记录。本次增加全部 30 题的 Advanced Time Tests / Advanced Memory Tests、独立进程测量和提交评估报告，练习源文件保持 TODO。
+
+- `python -m pytest tests/test_section01_assessment.py -q`：**28 passed**，覆盖测量边界、错误输出、超时、流式/整文件内存差异和正确/错误/TODO 提交的端到端报告。
+- `python scripts/run_all_tests.py --core -q`：**235 passed、60 skipped、222 xfailed、6 deselected**。60 项新压力测试默认需显式 `--run-advanced` 启用。
+- 显式运行新增压力测试：当前原始练习骨架对应 **60 xfailed**，未把未实现代码计为性能通过。
+- 使用临时常规实现校准全部 30 个时间和 30 个内存工作负载，均在阈值内；六种低效实现触发预期时间或内存失败，详情见 section01_performance.md 和校准 JSON。校准数据不代表学习者提交结果。
+- `python scripts/assess_section01.py`：为当前 30 个 TODO 正确生成 `not_implemented` 报告和空测量值，退出码 1。
+- `ruff check .`、`ruff format --check .`、`git diff --check` 通过。

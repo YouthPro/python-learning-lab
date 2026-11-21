@@ -1,0 +1,11 @@
+........................................................................ [ 66%]
+.....................................                                    [100%]
+=============================== warnings summary ===============================
+phase2_data_science/section04_pandas/projects/ecommerce_analysis/tests/test_analysis.py: 15 warnings
+phase2_data_science/section05_matplotlib/projects/exploratory_data_analysis/tests/test_eda.py: 15 warnings
+  /home/ai_infra/projects/python-learning-lab/phase2_data_science/section04_pandas/projects/ecommerce_analysis/src/cleaning.py:34: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
+  See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+    frame.drop(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+109 passed, 365 deselected, 30 warnings in 6.94s

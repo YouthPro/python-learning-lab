@@ -1,0 +1,1554 @@
+# 练习状态可填 TODO、IN_PROGRESS、SOLVED 或 REVIEW。
+# 设计题的 method_name 记录第一个公开方法。完整接口见各题 Python 文件。
+# 346 的主站 Python3 模板待核实。接口依据力扣公开同题 LCR 041。
+
+- id: 26
+  title: Remove Duplicates from Sorted Array
+  difficulty: Easy
+  section: Array
+  subsection: Array Manipulation
+  primary_data_structure: Array
+  class_name: Solution
+  method_name: removeDuplicates
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
+- id: 27
+  title: Remove Element
+  difficulty: Easy
+  section: Array
+  subsection: Array Manipulation
+  primary_data_structure: Array
+  class_name: Solution
+  method_name: removeElement
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/remove-element/
+
+- id: 88
+  title: Merge Sorted Array
+  difficulty: Easy
+  section: Array
+  subsection: Array Manipulation
+  primary_data_structure: Array
+  class_name: Solution
+  method_name: merge
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/merge-sorted-array/
+
+- id: 121
+  title: Best Time to Buy and Sell Stock
+  difficulty: Easy
+  section: Array
+  subsection: Linear Scan
+  primary_data_structure: Array
+  class_name: Solution
+  method_name: maxProfit
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
+- id: 283
+  title: Move Zeroes
+  difficulty: Easy
+  section: Array
+  subsection: Array Manipulation
+  primary_data_structure: Array
+  class_name: Solution
+  method_name: moveZeroes
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/move-zeroes/
+
+- id: 53
+  title: Maximum Subarray
+  difficulty: Medium
+  section: Array
+  subsection: Linear Scan
+  primary_data_structure: Array
+  class_name: Solution
+  method_name: maxSubArray
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/maximum-subarray/
+
+- id: 11
+  title: Container With Most Water
+  difficulty: Medium
+  section: Array
+  subsection: Two Pointers
+  primary_data_structure: Array
+  class_name: Solution
+  method_name: maxArea
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/container-with-most-water/
+
+- id: 75
+  title: Sort Colors
+  difficulty: Medium
+  section: Array
+  subsection: Array Manipulation
+  primary_data_structure: Array
+  class_name: Solution
+  method_name: sortColors
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/sort-colors/
+
+- id: 15
+  title: "3Sum"
+  difficulty: Medium
+  section: Array
+  subsection: Two Pointers
+  primary_data_structure: Array
+  class_name: Solution
+  method_name: threeSum
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/3sum/
+
+- id: 238
+  title: Product of Array Except Self
+  difficulty: Medium
+  section: Array
+  subsection: Prefix and Suffix
+  primary_data_structure: Array
+  class_name: Solution
+  method_name: productExceptSelf
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/product-of-array-except-self/
+
+- id: 42
+  title: Trapping Rain Water
+  difficulty: Hard
+  section: Array
+  subsection: Two Pointers
+  primary_data_structure: Array
+  class_name: Solution
+  method_name: trap
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/trapping-rain-water/
+
+- id: 41
+  title: First Missing Positive
+  difficulty: Hard
+  section: Array
+  subsection: Array Manipulation
+  primary_data_structure: Array
+  class_name: Solution
+  method_name: firstMissingPositive
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/first-missing-positive/
+
+- id: 4
+  title: Median of Two Sorted Arrays
+  difficulty: Hard
+  section: Array
+  subsection: Binary Search
+  primary_data_structure: Array
+  class_name: Solution
+  method_name: findMedianSortedArrays
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/median-of-two-sorted-arrays/
+
+- id: 206
+  title: Reverse Linked List
+  difficulty: Easy
+  section: Linked List
+  subsection: Pointer Manipulation
+  primary_data_structure: Linked List
+  class_name: Solution
+  method_name: reverseList
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/reverse-linked-list/
+
+- id: 21
+  title: Merge Two Sorted Lists
+  difficulty: Easy
+  section: Linked List
+  subsection: Merge and Sort
+  primary_data_structure: Linked List
+  class_name: Solution
+  method_name: mergeTwoLists
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/merge-two-sorted-lists/
+
+- id: 141
+  title: Linked List Cycle
+  difficulty: Easy
+  section: Linked List
+  subsection: Fast and Slow Pointers
+  primary_data_structure: Linked List
+  class_name: Solution
+  method_name: hasCycle
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/linked-list-cycle/
+
+- id: 876
+  title: Middle of the Linked List
+  difficulty: Easy
+  section: Linked List
+  subsection: Fast and Slow Pointers
+  primary_data_structure: Linked List
+  class_name: Solution
+  method_name: middleNode
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/middle-of-the-linked-list/
+
+- id: 83
+  title: Remove Duplicates from Sorted List
+  difficulty: Easy
+  section: Linked List
+  subsection: Pointer Manipulation
+  primary_data_structure: Linked List
+  class_name: Solution
+  method_name: deleteDuplicates
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+
+- id: 203
+  title: Remove Linked List Elements
+  difficulty: Easy
+  section: Linked List
+  subsection: Pointer Manipulation
+  primary_data_structure: Linked List
+  class_name: Solution
+  method_name: removeElements
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/remove-linked-list-elements/
+
+- id: 160
+  title: Intersection of Two Linked Lists
+  difficulty: Easy
+  section: Linked List
+  subsection: Pointer Manipulation
+  primary_data_structure: Linked List
+  class_name: Solution
+  method_name: getIntersectionNode
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/intersection-of-two-linked-lists/
+
+- id: 234
+  title: Palindrome Linked List
+  difficulty: Easy
+  section: Linked List
+  subsection: Fast and Slow Pointers
+  primary_data_structure: Linked List
+  class_name: Solution
+  method_name: isPalindrome
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/palindrome-linked-list/
+
+- id: 19
+  title: Remove Nth Node From End of List
+  difficulty: Medium
+  section: Linked List
+  subsection: Fast and Slow Pointers
+  primary_data_structure: Linked List
+  class_name: Solution
+  method_name: removeNthFromEnd
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+
+- id: 24
+  title: Swap Nodes in Pairs
+  difficulty: Medium
+  section: Linked List
+  subsection: Pointer Manipulation
+  primary_data_structure: Linked List
+  class_name: Solution
+  method_name: swapPairs
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/swap-nodes-in-pairs/
+
+- id: 92
+  title: Reverse Linked List II
+  difficulty: Medium
+  section: Linked List
+  subsection: Pointer Manipulation
+  primary_data_structure: Linked List
+  class_name: Solution
+  method_name: reverseBetween
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/reverse-linked-list-ii/
+
+- id: 142
+  title: Linked List Cycle II
+  difficulty: Medium
+  section: Linked List
+  subsection: Fast and Slow Pointers
+  primary_data_structure: Linked List
+  class_name: Solution
+  method_name: detectCycle
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/linked-list-cycle-ii/
+
+- id: 143
+  title: Reorder List
+  difficulty: Medium
+  section: Linked List
+  subsection: Pointer Manipulation
+  primary_data_structure: Linked List
+  class_name: Solution
+  method_name: reorderList
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/reorder-list/
+
+- id: 148
+  title: Sort List
+  difficulty: Medium
+  section: Linked List
+  subsection: Merge and Sort
+  primary_data_structure: Linked List
+  class_name: Solution
+  method_name: sortList
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/sort-list/
+
+- id: 25
+  title: Reverse Nodes in k-Group
+  difficulty: Hard
+  section: Linked List
+  subsection: Pointer Manipulation
+  primary_data_structure: Linked List
+  class_name: Solution
+  method_name: reverseKGroup
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/reverse-nodes-in-k-group/
+
+- id: 20
+  title: Valid Parentheses
+  difficulty: Easy
+  section: Stack
+  subsection: Basic Stack
+  primary_data_structure: Stack
+  class_name: Solution
+  method_name: isValid
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/valid-parentheses/
+
+- id: 682
+  title: Baseball Game
+  difficulty: Easy
+  section: Stack
+  subsection: Basic Stack
+  primary_data_structure: Stack
+  class_name: Solution
+  method_name: calPoints
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/baseball-game/
+
+- id: 1047
+  title: Remove All Adjacent Duplicates In String
+  difficulty: Easy
+  section: Stack
+  subsection: Basic Stack
+  primary_data_structure: Stack
+  class_name: Solution
+  method_name: removeDuplicates
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
+
+- id: 844
+  title: Backspace String Compare
+  difficulty: Easy
+  section: Stack
+  subsection: Basic Stack
+  primary_data_structure: Stack
+  class_name: Solution
+  method_name: backspaceCompare
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/backspace-string-compare/
+
+- id: 150
+  title: Evaluate Reverse Polish Notation
+  difficulty: Medium
+  section: Stack
+  subsection: Expression Evaluation
+  primary_data_structure: Stack
+  class_name: Solution
+  method_name: evalRPN
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/evaluate-reverse-polish-notation/
+
+- id: 394
+  title: Decode String
+  difficulty: Medium
+  section: Stack
+  subsection: Expression Evaluation
+  primary_data_structure: Stack
+  class_name: Solution
+  method_name: decodeString
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/decode-string/
+
+- id: 735
+  title: Asteroid Collision
+  difficulty: Medium
+  section: Stack
+  subsection: Basic Stack
+  primary_data_structure: Stack
+  class_name: Solution
+  method_name: asteroidCollision
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/asteroid-collision/
+
+- id: 739
+  title: Daily Temperatures
+  difficulty: Medium
+  section: Stack
+  subsection: Monotonic Stack
+  primary_data_structure: Stack
+  class_name: Solution
+  method_name: dailyTemperatures
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/daily-temperatures/
+
+- id: 946
+  title: Validate Stack Sequences
+  difficulty: Medium
+  section: Stack
+  subsection: Basic Stack
+  primary_data_structure: Stack
+  class_name: Solution
+  method_name: validateStackSequences
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/validate-stack-sequences/
+
+- id: 402
+  title: Remove K Digits
+  difficulty: Medium
+  section: Stack
+  subsection: Monotonic Stack
+  primary_data_structure: Stack
+  class_name: Solution
+  method_name: removeKdigits
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/remove-k-digits/
+
+- id: 84
+  title: Largest Rectangle in Histogram
+  difficulty: Hard
+  section: Stack
+  subsection: Monotonic Stack
+  primary_data_structure: Stack
+  class_name: Solution
+  method_name: largestRectangleArea
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/largest-rectangle-in-histogram/
+
+- id: 32
+  title: Longest Valid Parentheses
+  difficulty: Hard
+  section: Stack
+  subsection: Basic Stack
+  primary_data_structure: Stack
+  class_name: Solution
+  method_name: longestValidParentheses
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/longest-valid-parentheses/
+
+- id: 933
+  title: Number of Recent Calls
+  difficulty: Easy
+  section: Queue / Deque
+  subsection: FIFO Queue
+  primary_data_structure: Queue
+  class_name: RecentCounter
+  method_name: ping
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/number-of-recent-calls/
+
+- id: 346
+  title: Moving Average from Data Stream
+  difficulty: Easy
+  section: Queue / Deque
+  subsection: FIFO Queue
+  primary_data_structure: Queue
+  class_name: MovingAverage
+  method_name: next
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/moving-average-from-data-stream/
+
+- id: 2073
+  title: Time Needed to Buy Tickets
+  difficulty: Easy
+  section: Queue / Deque
+  subsection: FIFO Queue
+  primary_data_structure: Queue
+  class_name: Solution
+  method_name: timeRequiredToBuy
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/time-needed-to-buy-tickets/
+
+- id: 1700
+  title: Number of Students Unable to Eat Lunch
+  difficulty: Easy
+  section: Queue / Deque
+  subsection: FIFO Queue
+  primary_data_structure: Queue
+  class_name: Solution
+  method_name: countStudents
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/
+
+- id: 622
+  title: Design Circular Queue
+  difficulty: Medium
+  section: Queue / Deque
+  subsection: Circular Queue
+  primary_data_structure: Queue
+  class_name: MyCircularQueue
+  method_name: enQueue
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/design-circular-queue/
+
+- id: 641
+  title: Design Circular Deque
+  difficulty: Medium
+  section: Queue / Deque
+  subsection: Circular Queue
+  primary_data_structure: Deque
+  class_name: MyCircularDeque
+  method_name: insertFront
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/design-circular-deque/
+
+- id: 649
+  title: Dota2 Senate
+  difficulty: Medium
+  section: Queue / Deque
+  subsection: FIFO Queue
+  primary_data_structure: Queue
+  class_name: Solution
+  method_name: predictPartyVictory
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/dota2-senate/
+
+- id: 950
+  title: Reveal Cards In Increasing Order
+  difficulty: Medium
+  section: Queue / Deque
+  subsection: FIFO Queue
+  primary_data_structure: Queue
+  class_name: Solution
+  method_name: deckRevealedIncreasing
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/reveal-cards-in-increasing-order/
+
+- id: 1823
+  title: Find the Winner of the Circular Game
+  difficulty: Medium
+  section: Queue / Deque
+  subsection: Circular Queue
+  primary_data_structure: Queue
+  class_name: Solution
+  method_name: findTheWinner
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/find-the-winner-of-the-circular-game/
+
+- id: 1670
+  title: Design Front Middle Back Queue
+  difficulty: Medium
+  section: Queue / Deque
+  subsection: Deque
+  primary_data_structure: Deque
+  class_name: FrontMiddleBackQueue
+  method_name: pushFront
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/design-front-middle-back-queue/
+
+- id: 239
+  title: Sliding Window Maximum
+  difficulty: Hard
+  section: Queue / Deque
+  subsection: Monotonic Deque
+  primary_data_structure: Deque
+  class_name: Solution
+  method_name: maxSlidingWindow
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/sliding-window-maximum/
+
+- id: 1
+  title: Two Sum
+  difficulty: Easy
+  section: HashMap
+  subsection: Lookup
+  primary_data_structure: HashMap
+  class_name: Solution
+  method_name: twoSum
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/two-sum/
+
+- id: 205
+  title: Isomorphic Strings
+  difficulty: Easy
+  section: HashMap
+  subsection: Mapping
+  primary_data_structure: HashMap
+  class_name: Solution
+  method_name: isIsomorphic
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/isomorphic-strings/
+
+- id: 290
+  title: Word Pattern
+  difficulty: Easy
+  section: HashMap
+  subsection: Mapping
+  primary_data_structure: HashMap
+  class_name: Solution
+  method_name: wordPattern
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/word-pattern/
+
+- id: 242
+  title: Valid Anagram
+  difficulty: Easy
+  section: HashMap
+  subsection: Frequency Counting
+  primary_data_structure: HashMap
+  class_name: Solution
+  method_name: isAnagram
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/valid-anagram/
+
+- id: 383
+  title: Ransom Note
+  difficulty: Easy
+  section: HashMap
+  subsection: Frequency Counting
+  primary_data_structure: HashMap
+  class_name: Solution
+  method_name: canConstruct
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/ransom-note/
+
+- id: 387
+  title: First Unique Character in a String
+  difficulty: Easy
+  section: HashMap
+  subsection: Frequency Counting
+  primary_data_structure: HashMap
+  class_name: Solution
+  method_name: firstUniqChar
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/first-unique-character-in-a-string/
+
+- id: 49
+  title: Group Anagrams
+  difficulty: Medium
+  section: HashMap
+  subsection: Grouping
+  primary_data_structure: HashMap
+  class_name: Solution
+  method_name: groupAnagrams
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/group-anagrams/
+
+- id: 560
+  title: Subarray Sum Equals K
+  difficulty: Medium
+  section: HashMap
+  subsection: Prefix Sums
+  primary_data_structure: HashMap
+  class_name: Solution
+  method_name: subarraySum
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/subarray-sum-equals-k/
+
+- id: 454
+  title: "4Sum II"
+  difficulty: Medium
+  section: HashMap
+  subsection: Frequency Counting
+  primary_data_structure: HashMap
+  class_name: Solution
+  method_name: fourSumCount
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/4sum-ii/
+
+- id: 76
+  title: Minimum Window Substring
+  difficulty: Hard
+  section: HashMap
+  subsection: Sliding Window
+  primary_data_structure: HashMap
+  class_name: Solution
+  method_name: minWindow
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/minimum-window-substring/
+
+- id: 217
+  title: Contains Duplicate
+  difficulty: Easy
+  section: HashSet
+  subsection: Membership
+  primary_data_structure: HashSet
+  class_name: Solution
+  method_name: containsDuplicate
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/contains-duplicate/
+
+- id: 202
+  title: Happy Number
+  difficulty: Easy
+  section: HashSet
+  subsection: State Tracking
+  primary_data_structure: HashSet
+  class_name: Solution
+  method_name: isHappy
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/happy-number/
+
+- id: 349
+  title: Intersection of Two Arrays
+  difficulty: Easy
+  section: HashSet
+  subsection: Membership
+  primary_data_structure: HashSet
+  class_name: Solution
+  method_name: intersection
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/intersection-of-two-arrays/
+
+- id: 771
+  title: Jewels and Stones
+  difficulty: Easy
+  section: HashSet
+  subsection: Membership
+  primary_data_structure: HashSet
+  class_name: Solution
+  method_name: numJewelsInStones
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/jewels-and-stones/
+
+- id: 804
+  title: Unique Morse Code Words
+  difficulty: Easy
+  section: HashSet
+  subsection: Deduplication
+  primary_data_structure: HashSet
+  class_name: Solution
+  method_name: uniqueMorseRepresentations
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/unique-morse-code-words/
+
+- id: 705
+  title: Design HashSet
+  difficulty: Easy
+  section: HashSet
+  subsection: Set Design
+  primary_data_structure: HashSet
+  class_name: MyHashSet
+  method_name: add
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/design-hashset/
+
+- id: 2351
+  title: First Letter to Appear Twice
+  difficulty: Easy
+  section: HashSet
+  subsection: State Tracking
+  primary_data_structure: HashSet
+  class_name: Solution
+  method_name: repeatedCharacter
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/first-letter-to-appear-twice/
+
+- id: 128
+  title: Longest Consecutive Sequence
+  difficulty: Medium
+  section: HashSet
+  subsection: Membership
+  primary_data_structure: HashSet
+  class_name: Solution
+  method_name: longestConsecutive
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/longest-consecutive-sequence/
+
+- id: 874
+  title: Walking Robot Simulation
+  difficulty: Medium
+  section: HashSet
+  subsection: State Tracking
+  primary_data_structure: HashSet
+  class_name: Solution
+  method_name: robotSim
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/walking-robot-simulation/
+
+- id: 36
+  title: Valid Sudoku
+  difficulty: Medium
+  section: HashSet
+  subsection: Constraint Tracking
+  primary_data_structure: HashSet
+  class_name: Solution
+  method_name: isValidSudoku
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/valid-sudoku/
+
+- id: 703
+  title: Kth Largest Element in a Stream
+  difficulty: Easy
+  section: Heap / Priority Queue
+  subsection: Top K
+  primary_data_structure: Heap
+  class_name: KthLargest
+  method_name: add
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/kth-largest-element-in-a-stream/
+
+- id: 1046
+  title: Last Stone Weight
+  difficulty: Easy
+  section: Heap / Priority Queue
+  subsection: Priority Simulation
+  primary_data_structure: Heap
+  class_name: Solution
+  method_name: lastStoneWeight
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/last-stone-weight/
+
+- id: 2558
+  title: Take Gifts From the Richest Pile
+  difficulty: Easy
+  section: Heap / Priority Queue
+  subsection: Priority Simulation
+  primary_data_structure: Heap
+  class_name: Solution
+  method_name: pickGifts
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/take-gifts-from-the-richest-pile/
+
+- id: 215
+  title: Kth Largest Element in an Array
+  difficulty: Medium
+  section: Heap / Priority Queue
+  subsection: Top K
+  primary_data_structure: Heap
+  class_name: Solution
+  method_name: findKthLargest
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/kth-largest-element-in-an-array/
+
+- id: 973
+  title: K Closest Points to Origin
+  difficulty: Medium
+  section: Heap / Priority Queue
+  subsection: Top K
+  primary_data_structure: Heap
+  class_name: Solution
+  method_name: kClosest
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/k-closest-points-to-origin/
+
+- id: 1845
+  title: Seat Reservation Manager
+  difficulty: Medium
+  section: Heap / Priority Queue
+  subsection: Priority Simulation
+  primary_data_structure: Heap
+  class_name: SeatManager
+  method_name: reserve
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/seat-reservation-manager/
+
+- id: 1642
+  title: Furthest Building You Can Reach
+  difficulty: Medium
+  section: Heap / Priority Queue
+  subsection: Resource Allocation
+  primary_data_structure: Heap
+  class_name: Solution
+  method_name: furthestBuilding
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/furthest-building-you-can-reach/
+
+- id: 2462
+  title: Total Cost to Hire K Workers
+  difficulty: Medium
+  section: Heap / Priority Queue
+  subsection: Resource Allocation
+  primary_data_structure: Heap
+  class_name: Solution
+  method_name: totalCost
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/total-cost-to-hire-k-workers/
+
+- id: 295
+  title: Find Median from Data Stream
+  difficulty: Hard
+  section: Heap / Priority Queue
+  subsection: Streaming Statistics
+  primary_data_structure: Heap
+  class_name: MedianFinder
+  method_name: addNum
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/find-median-from-data-stream/
+
+- id: 871
+  title: Minimum Number of Refueling Stops
+  difficulty: Hard
+  section: Heap / Priority Queue
+  subsection: Resource Allocation
+  primary_data_structure: Heap
+  class_name: Solution
+  method_name: minRefuelStops
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/minimum-number-of-refueling-stops/
+
+- id: 144
+  title: Binary Tree Preorder Traversal
+  difficulty: Easy
+  section: Binary Tree
+  subsection: Traversal
+  primary_data_structure: Binary Tree
+  class_name: Solution
+  method_name: preorderTraversal
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/binary-tree-preorder-traversal/
+
+- id: 94
+  title: Binary Tree Inorder Traversal
+  difficulty: Easy
+  section: Binary Tree
+  subsection: Traversal
+  primary_data_structure: Binary Tree
+  class_name: Solution
+  method_name: inorderTraversal
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/binary-tree-inorder-traversal/
+
+- id: 145
+  title: Binary Tree Postorder Traversal
+  difficulty: Easy
+  section: Binary Tree
+  subsection: Traversal
+  primary_data_structure: Binary Tree
+  class_name: Solution
+  method_name: postorderTraversal
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/binary-tree-postorder-traversal/
+
+- id: 100
+  title: Same Tree
+  difficulty: Easy
+  section: Binary Tree
+  subsection: Tree Properties
+  primary_data_structure: Binary Tree
+  class_name: Solution
+  method_name: isSameTree
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/same-tree/
+
+- id: 104
+  title: Maximum Depth of Binary Tree
+  difficulty: Easy
+  section: Binary Tree
+  subsection: Tree Properties
+  primary_data_structure: Binary Tree
+  class_name: Solution
+  method_name: maxDepth
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/maximum-depth-of-binary-tree/
+
+- id: 226
+  title: Invert Binary Tree
+  difficulty: Easy
+  section: Binary Tree
+  subsection: Tree Transformation
+  primary_data_structure: Binary Tree
+  class_name: Solution
+  method_name: invertTree
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/invert-binary-tree/
+
+- id: 101
+  title: Symmetric Tree
+  difficulty: Easy
+  section: Binary Tree
+  subsection: Tree Properties
+  primary_data_structure: Binary Tree
+  class_name: Solution
+  method_name: isSymmetric
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/symmetric-tree/
+
+- id: 112
+  title: Path Sum
+  difficulty: Easy
+  section: Binary Tree
+  subsection: Path Tracking
+  primary_data_structure: Binary Tree
+  class_name: Solution
+  method_name: hasPathSum
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/path-sum/
+
+- id: 110
+  title: Balanced Binary Tree
+  difficulty: Easy
+  section: Binary Tree
+  subsection: Tree Properties
+  primary_data_structure: Binary Tree
+  class_name: Solution
+  method_name: isBalanced
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/balanced-binary-tree/
+
+- id: 543
+  title: Diameter of Binary Tree
+  difficulty: Easy
+  section: Binary Tree
+  subsection: Path Tracking
+  primary_data_structure: Binary Tree
+  class_name: Solution
+  method_name: diameterOfBinaryTree
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/diameter-of-binary-tree/
+
+- id: 114
+  title: Flatten Binary Tree to Linked List
+  difficulty: Medium
+  section: Binary Tree
+  subsection: Tree Transformation
+  primary_data_structure: Binary Tree
+  class_name: Solution
+  method_name: flatten
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+
+- id: 236
+  title: Lowest Common Ancestor of a Binary Tree
+  difficulty: Medium
+  section: Binary Tree
+  subsection: Path Tracking
+  primary_data_structure: Binary Tree
+  class_name: Solution
+  method_name: lowestCommonAncestor
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+
+- id: 129
+  title: Sum Root to Leaf Numbers
+  difficulty: Medium
+  section: Binary Tree
+  subsection: Path Tracking
+  primary_data_structure: Binary Tree
+  class_name: Solution
+  method_name: sumNumbers
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/sum-root-to-leaf-numbers/
+
+- id: 124
+  title: Binary Tree Maximum Path Sum
+  difficulty: Hard
+  section: Binary Tree
+  subsection: Path Tracking
+  primary_data_structure: Binary Tree
+  class_name: Solution
+  method_name: maxPathSum
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/binary-tree-maximum-path-sum/
+
+- id: 297
+  title: Serialize and Deserialize Binary Tree
+  difficulty: Hard
+  section: Binary Tree
+  subsection: Serialization
+  primary_data_structure: Binary Tree
+  class_name: Codec
+  method_name: serialize
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+
+- id: 700
+  title: Search in a Binary Search Tree
+  difficulty: Easy
+  section: Binary Search Tree
+  subsection: Search and Range
+  primary_data_structure: Binary Search Tree
+  class_name: Solution
+  method_name: searchBST
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/search-in-a-binary-search-tree/
+
+- id: 530
+  title: Minimum Absolute Difference in BST
+  difficulty: Easy
+  section: Binary Search Tree
+  subsection: Inorder Statistics
+  primary_data_structure: Binary Search Tree
+  class_name: Solution
+  method_name: getMinimumDifference
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/minimum-absolute-difference-in-bst/
+
+- id: 501
+  title: Find Mode in Binary Search Tree
+  difficulty: Easy
+  section: Binary Search Tree
+  subsection: Inorder Statistics
+  primary_data_structure: Binary Search Tree
+  class_name: Solution
+  method_name: findMode
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/find-mode-in-binary-search-tree/
+
+- id: 783
+  title: Minimum Distance Between BST Nodes
+  difficulty: Easy
+  section: Binary Search Tree
+  subsection: Inorder Statistics
+  primary_data_structure: Binary Search Tree
+  class_name: Solution
+  method_name: minDiffInBST
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/minimum-distance-between-bst-nodes/
+
+- id: 938
+  title: Range Sum of BST
+  difficulty: Easy
+  section: Binary Search Tree
+  subsection: Search and Range
+  primary_data_structure: Binary Search Tree
+  class_name: Solution
+  method_name: rangeSumBST
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/range-sum-of-bst/
+
+- id: 98
+  title: Validate Binary Search Tree
+  difficulty: Medium
+  section: Binary Search Tree
+  subsection: BST Validation
+  primary_data_structure: Binary Search Tree
+  class_name: Solution
+  method_name: isValidBST
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/validate-binary-search-tree/
+
+- id: 230
+  title: Kth Smallest Element in a BST
+  difficulty: Medium
+  section: Binary Search Tree
+  subsection: Inorder Statistics
+  primary_data_structure: Binary Search Tree
+  class_name: Solution
+  method_name: kthSmallest
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+
+- id: 235
+  title: Lowest Common Ancestor of a Binary Search Tree
+  difficulty: Medium
+  section: Binary Search Tree
+  subsection: Search and Range
+  primary_data_structure: Binary Search Tree
+  class_name: Solution
+  method_name: lowestCommonAncestor
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+
+- id: 450
+  title: Delete Node in a BST
+  difficulty: Medium
+  section: Binary Search Tree
+  subsection: Tree Updates
+  primary_data_structure: Binary Search Tree
+  class_name: Solution
+  method_name: deleteNode
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/delete-node-in-a-bst/
+
+- id: 701
+  title: Insert into a Binary Search Tree
+  difficulty: Medium
+  section: Binary Search Tree
+  subsection: Tree Updates
+  primary_data_structure: Binary Search Tree
+  class_name: Solution
+  method_name: insertIntoBST
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/insert-into-a-binary-search-tree/
+
+- id: 669
+  title: Trim a Binary Search Tree
+  difficulty: Medium
+  section: Binary Search Tree
+  subsection: Tree Updates
+  primary_data_structure: Binary Search Tree
+  class_name: Solution
+  method_name: trimBST
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/trim-a-binary-search-tree/
+
+- id: 538
+  title: Convert BST to Greater Tree
+  difficulty: Medium
+  section: Binary Search Tree
+  subsection: Inorder Statistics
+  primary_data_structure: Binary Search Tree
+  class_name: Solution
+  method_name: convertBST
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/convert-bst-to-greater-tree/
+
+- id: 1373
+  title: Maximum Sum BST in Binary Tree
+  difficulty: Hard
+  section: Binary Search Tree
+  subsection: BST Validation
+  primary_data_structure: Binary Search Tree
+  class_name: Solution
+  method_name: maxSumBST
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/
+
+- id: 208
+  title: Implement Trie (Prefix Tree)
+  difficulty: Medium
+  section: Trie
+  subsection: Character Trie
+  primary_data_structure: Trie
+  class_name: Trie
+  method_name: insert
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/implement-trie-prefix-tree/
+
+- id: 211
+  title: Design Add and Search Words Data Structure
+  difficulty: Medium
+  section: Trie
+  subsection: Wildcard Search
+  primary_data_structure: Trie
+  class_name: WordDictionary
+  method_name: addWord
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/design-add-and-search-words-data-structure/
+
+- id: 648
+  title: Replace Words
+  difficulty: Medium
+  section: Trie
+  subsection: Character Trie
+  primary_data_structure: Trie
+  class_name: Solution
+  method_name: replaceWords
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/replace-words/
+
+- id: 676
+  title: Implement Magic Dictionary
+  difficulty: Medium
+  section: Trie
+  subsection: Wildcard Search
+  primary_data_structure: Trie
+  class_name: MagicDictionary
+  method_name: buildDict
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/implement-magic-dictionary/
+
+- id: 677
+  title: Map Sum Pairs
+  difficulty: Medium
+  section: Trie
+  subsection: Prefix Aggregation
+  primary_data_structure: Trie
+  class_name: MapSum
+  method_name: insert
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/map-sum-pairs/
+
+- id: 720
+  title: Longest Word in Dictionary
+  difficulty: Medium
+  section: Trie
+  subsection: Character Trie
+  primary_data_structure: Trie
+  class_name: Solution
+  method_name: longestWord
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/longest-word-in-dictionary/
+
+- id: 421
+  title: Maximum XOR of Two Numbers in an Array
+  difficulty: Medium
+  section: Trie
+  subsection: Bitwise Trie
+  primary_data_structure: Trie
+  class_name: Solution
+  method_name: findMaximumXOR
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
+
+- id: 1032
+  title: Stream of Characters
+  difficulty: Hard
+  section: Trie
+  subsection: Prefix and Suffix
+  primary_data_structure: Trie
+  class_name: StreamChecker
+  method_name: query
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/stream-of-characters/
+
+- id: 745
+  title: Prefix and Suffix Search
+  difficulty: Hard
+  section: Trie
+  subsection: Prefix and Suffix
+  primary_data_structure: Trie
+  class_name: WordFilter
+  method_name: f
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/prefix-and-suffix-search/
+
+- id: 1803
+  title: Count Pairs With XOR in a Range
+  difficulty: Hard
+  section: Trie
+  subsection: Bitwise Trie
+  primary_data_structure: Trie
+  class_name: Solution
+  method_name: countPairs
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/count-pairs-with-xor-in-a-range/
+
+- id: 2416
+  title: Sum of Prefix Scores of Strings
+  difficulty: Hard
+  section: Trie
+  subsection: Prefix Aggregation
+  primary_data_structure: Trie
+  class_name: Solution
+  method_name: sumPrefixScores
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/sum-of-prefix-scores-of-strings/
+
+- id: 1791
+  title: Find Center of Star Graph
+  difficulty: Easy
+  section: Graph
+  subsection: Graph Structure
+  primary_data_structure: Graph
+  class_name: Solution
+  method_name: findCenter
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/find-center-of-star-graph/
+
+- id: 997
+  title: Find the Town Judge
+  difficulty: Easy
+  section: Graph
+  subsection: Graph Structure
+  primary_data_structure: Graph
+  class_name: Solution
+  method_name: findJudge
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/find-the-town-judge/
+
+- id: 1971
+  title: Find if Path Exists in Graph
+  difficulty: Easy
+  section: Graph
+  subsection: Connectivity
+  primary_data_structure: Graph
+  class_name: Solution
+  method_name: validPath
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/find-if-path-exists-in-graph/
+
+- id: 207
+  title: Course Schedule
+  difficulty: Medium
+  section: Graph
+  subsection: Cycles and States
+  primary_data_structure: Graph
+  class_name: Solution
+  method_name: canFinish
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/course-schedule/
+
+- id: 797
+  title: All Paths From Source to Target
+  difficulty: Medium
+  section: Graph
+  subsection: Path Tracking
+  primary_data_structure: Graph
+  class_name: Solution
+  method_name: allPathsSourceTarget
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/all-paths-from-source-to-target/
+
+- id: 802
+  title: Find Eventual Safe States
+  difficulty: Medium
+  section: Graph
+  subsection: Cycles and States
+  primary_data_structure: Graph
+  class_name: Solution
+  method_name: eventualSafeNodes
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/find-eventual-safe-states/
+
+- id: 841
+  title: Keys and Rooms
+  difficulty: Medium
+  section: Graph
+  subsection: Connectivity
+  primary_data_structure: Graph
+  class_name: Solution
+  method_name: canVisitAllRooms
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/keys-and-rooms/
+
+- id: 1466
+  title: Reorder Routes to Make All Paths Lead to the City Zero
+  difficulty: Medium
+  section: Graph
+  subsection: Connectivity
+  primary_data_structure: Graph
+  class_name: Solution
+  method_name: minReorder
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/
+
+- id: 1376
+  title: Time Needed to Inform All Employees
+  difficulty: Medium
+  section: Graph
+  subsection: Path Tracking
+  primary_data_structure: Graph
+  class_name: Solution
+  method_name: numOfMinutes
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/time-needed-to-inform-all-employees/
+
+- id: 2360
+  title: Longest Cycle in a Graph
+  difficulty: Hard
+  section: Graph
+  subsection: Cycles and States
+  primary_data_structure: Graph
+  class_name: Solution
+  method_name: longestCycle
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/longest-cycle-in-a-graph/
+
+- id: 547
+  title: Number of Provinces
+  difficulty: Medium
+  section: Union-Find
+  subsection: Connectivity
+  primary_data_structure: Union-Find
+  class_name: Solution
+  method_name: findCircleNum
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/number-of-provinces/
+
+- id: 684
+  title: Redundant Connection
+  difficulty: Medium
+  section: Union-Find
+  subsection: Connectivity
+  primary_data_structure: Union-Find
+  class_name: Solution
+  method_name: findRedundantConnection
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/redundant-connection/
+
+- id: 990
+  title: Satisfiability of Equality Equations
+  difficulty: Medium
+  section: Union-Find
+  subsection: Constraints
+  primary_data_structure: Union-Find
+  class_name: Solution
+  method_name: equationsPossible
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/satisfiability-of-equality-equations/
+
+- id: 1319
+  title: Number of Operations to Make Network Connected
+  difficulty: Medium
+  section: Union-Find
+  subsection: Connectivity
+  primary_data_structure: Union-Find
+  class_name: Solution
+  method_name: makeConnected
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/number-of-operations-to-make-network-connected/
+
+- id: 785
+  title: "Is Graph Bipartite?"
+  difficulty: Medium
+  section: Union-Find
+  subsection: Constraints
+  primary_data_structure: Union-Find
+  class_name: Solution
+  method_name: isBipartite
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/is-graph-bipartite/
+
+- id: 959
+  title: Regions Cut By Slashes
+  difficulty: Medium
+  section: Union-Find
+  subsection: Grid Connectivity
+  primary_data_structure: Union-Find
+  class_name: Solution
+  method_name: regionsBySlashes
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/regions-cut-by-slashes/
+
+- id: 947
+  title: Most Stones Removed with Same Row or Column
+  difficulty: Medium
+  section: Union-Find
+  subsection: Connectivity
+  primary_data_structure: Union-Find
+  class_name: Solution
+  method_name: removeStones
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
+
+- id: 1631
+  title: Path With Minimum Effort
+  difficulty: Medium
+  section: Union-Find
+  subsection: Edge Ordering
+  primary_data_structure: Union-Find
+  class_name: Solution
+  method_name: minimumEffortPath
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/path-with-minimum-effort/
+
+- id: 200
+  title: Number of Islands
+  difficulty: Medium
+  section: Union-Find
+  subsection: Grid Connectivity
+  primary_data_structure: Union-Find
+  class_name: Solution
+  method_name: numIslands
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/number-of-islands/
+
+- id: 130
+  title: Surrounded Regions
+  difficulty: Medium
+  section: Union-Find
+  subsection: Grid Connectivity
+  primary_data_structure: Union-Find
+  class_name: Solution
+  method_name: solve
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/surrounded-regions/
+
+- id: 765
+  title: Couples Holding Hands
+  difficulty: Hard
+  section: Union-Find
+  subsection: Constraints
+  primary_data_structure: Union-Find
+  class_name: Solution
+  method_name: minSwapsCouples
+  status: TODO
+  leetcode_url: https://leetcode.com/problems/couples-holding-hands/

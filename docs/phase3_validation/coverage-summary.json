@@ -1,0 +1,456 @@
+{
+  "totals": {
+    "covered_lines": 932,
+    "num_statements": 1093,
+    "percent_covered": 85.26989935956084,
+    "percent_covered_display": "85",
+    "missing_lines": 161,
+    "excluded_lines": 0,
+    "percent_statements_covered": 85.26989935956084,
+    "percent_statements_covered_display": "85"
+  },
+  "files": {
+    "phase3_deep_learning/__init__.py": {
+      "covered_lines": 0,
+      "num_statements": 0,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "phase3_deep_learning/common/__init__.py": {
+      "covered_lines": 0,
+      "num_statements": 0,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "phase3_deep_learning/common/checkpoint.py": {
+      "covered_lines": 28,
+      "num_statements": 30,
+      "percent_covered": 93.33333333333333,
+      "percent_covered_display": "93",
+      "missing_lines": 2,
+      "excluded_lines": 0,
+      "percent_statements_covered": 93.33333333333333,
+      "percent_statements_covered_display": "93"
+    },
+    "phase3_deep_learning/common/data.py": {
+      "covered_lines": 22,
+      "num_statements": 33,
+      "percent_covered": 66.66666666666667,
+      "percent_covered_display": "67",
+      "missing_lines": 11,
+      "excluded_lines": 0,
+      "percent_statements_covered": 66.66666666666667,
+      "percent_statements_covered_display": "67"
+    },
+    "phase3_deep_learning/common/engine.py": {
+      "covered_lines": 57,
+      "num_statements": 59,
+      "percent_covered": 96.61016949152543,
+      "percent_covered_display": "97",
+      "missing_lines": 2,
+      "excluded_lines": 0,
+      "percent_statements_covered": 96.61016949152543,
+      "percent_statements_covered_display": "97"
+    },
+    "phase3_deep_learning/common/experiment.py": {
+      "covered_lines": 31,
+      "num_statements": 32,
+      "percent_covered": 96.875,
+      "percent_covered_display": "97",
+      "missing_lines": 1,
+      "excluded_lines": 0,
+      "percent_statements_covered": 96.875,
+      "percent_statements_covered_display": "97"
+    },
+    "phase3_deep_learning/common/logging.py": {
+      "covered_lines": 13,
+      "num_statements": 14,
+      "percent_covered": 92.85714285714286,
+      "percent_covered_display": "93",
+      "missing_lines": 1,
+      "excluded_lines": 0,
+      "percent_statements_covered": 92.85714285714286,
+      "percent_statements_covered_display": "93"
+    },
+    "phase3_deep_learning/common/metrics.py": {
+      "covered_lines": 32,
+      "num_statements": 35,
+      "percent_covered": 91.42857142857143,
+      "percent_covered_display": "91",
+      "missing_lines": 3,
+      "excluded_lines": 0,
+      "percent_statements_covered": 91.42857142857143,
+      "percent_statements_covered_display": "91"
+    },
+    "phase3_deep_learning/common/models.py": {
+      "covered_lines": 19,
+      "num_statements": 22,
+      "percent_covered": 86.36363636363636,
+      "percent_covered_display": "86",
+      "missing_lines": 3,
+      "excluded_lines": 0,
+      "percent_statements_covered": 86.36363636363636,
+      "percent_statements_covered_display": "86"
+    },
+    "phase3_deep_learning/common/runtime.py": {
+      "covered_lines": 22,
+      "num_statements": 28,
+      "percent_covered": 78.57142857142857,
+      "percent_covered_display": "79",
+      "missing_lines": 6,
+      "excluded_lines": 0,
+      "percent_statements_covered": 78.57142857142857,
+      "percent_statements_covered_display": "79"
+    },
+    "phase3_deep_learning/common/visualization.py": {
+      "covered_lines": 53,
+      "num_statements": 53,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "phase3_deep_learning/section07_pytorch_fundamentals/__init__.py": {
+      "covered_lines": 0,
+      "num_statements": 0,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "phase3_deep_learning/section07_pytorch_fundamentals/projects/fashion_mnist_classifier/src/models.py": {
+      "covered_lines": 3,
+      "num_statements": 3,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "phase3_deep_learning/section07_pytorch_fundamentals/projects/fashion_mnist_classifier/src/train.py": {
+      "covered_lines": 34,
+      "num_statements": 48,
+      "percent_covered": 70.83333333333333,
+      "percent_covered_display": "71",
+      "missing_lines": 14,
+      "excluded_lines": 0,
+      "percent_statements_covered": 70.83333333333333,
+      "percent_statements_covered_display": "71"
+    },
+    "phase3_deep_learning/section07_pytorch_fundamentals/projects/mlp_classifier/src/data.py": {
+      "covered_lines": 12,
+      "num_statements": 13,
+      "percent_covered": 92.3076923076923,
+      "percent_covered_display": "92",
+      "missing_lines": 1,
+      "excluded_lines": 0,
+      "percent_statements_covered": 92.3076923076923,
+      "percent_statements_covered_display": "92"
+    },
+    "phase3_deep_learning/section07_pytorch_fundamentals/projects/mlp_classifier/src/models.py": {
+      "covered_lines": 2,
+      "num_statements": 2,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "phase3_deep_learning/section07_pytorch_fundamentals/projects/mlp_classifier/src/train.py": {
+      "covered_lines": 41,
+      "num_statements": 56,
+      "percent_covered": 73.21428571428571,
+      "percent_covered_display": "73",
+      "missing_lines": 15,
+      "excluded_lines": 0,
+      "percent_statements_covered": 73.21428571428571,
+      "percent_statements_covered_display": "73"
+    },
+    "phase3_deep_learning/section08_data_pipeline_and_models/__init__.py": {
+      "covered_lines": 0,
+      "num_statements": 0,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "phase3_deep_learning/section08_data_pipeline_and_models/projects/cnn_image_classifier/src/main.py": {
+      "covered_lines": 51,
+      "num_statements": 71,
+      "percent_covered": 71.83098591549296,
+      "percent_covered_display": "72",
+      "missing_lines": 20,
+      "excluded_lines": 0,
+      "percent_statements_covered": 71.83098591549296,
+      "percent_statements_covered_display": "72"
+    },
+    "phase3_deep_learning/section08_data_pipeline_and_models/projects/cnn_image_classifier/src/models.py": {
+      "covered_lines": 19,
+      "num_statements": 20,
+      "percent_covered": 95.0,
+      "percent_covered_display": "95",
+      "missing_lines": 1,
+      "excluded_lines": 0,
+      "percent_statements_covered": 95.0,
+      "percent_statements_covered_display": "95"
+    },
+    "phase3_deep_learning/section08_data_pipeline_and_models/projects/image_dataset_pipeline/src/dataset.py": {
+      "covered_lines": 71,
+      "num_statements": 78,
+      "percent_covered": 91.02564102564102,
+      "percent_covered_display": "91",
+      "missing_lines": 7,
+      "excluded_lines": 0,
+      "percent_statements_covered": 91.02564102564102,
+      "percent_statements_covered_display": "91"
+    },
+    "phase3_deep_learning/section08_data_pipeline_and_models/projects/image_dataset_pipeline/src/generate.py": {
+      "covered_lines": 18,
+      "num_statements": 19,
+      "percent_covered": 94.73684210526316,
+      "percent_covered_display": "95",
+      "missing_lines": 1,
+      "excluded_lines": 0,
+      "percent_statements_covered": 94.73684210526316,
+      "percent_statements_covered_display": "95"
+    },
+    "phase3_deep_learning/section08_data_pipeline_and_models/projects/transfer_learning_classifier/src/data.py": {
+      "covered_lines": 27,
+      "num_statements": 42,
+      "percent_covered": 64.28571428571429,
+      "percent_covered_display": "64",
+      "missing_lines": 15,
+      "excluded_lines": 0,
+      "percent_statements_covered": 64.28571428571429,
+      "percent_statements_covered_display": "64"
+    },
+    "phase3_deep_learning/section08_data_pipeline_and_models/projects/transfer_learning_classifier/src/main.py": {
+      "covered_lines": 51,
+      "num_statements": 75,
+      "percent_covered": 68.0,
+      "percent_covered_display": "68",
+      "missing_lines": 24,
+      "excluded_lines": 0,
+      "percent_statements_covered": 68.0,
+      "percent_statements_covered_display": "68"
+    },
+    "phase3_deep_learning/section08_data_pipeline_and_models/projects/transfer_learning_classifier/src/models.py": {
+      "covered_lines": 14,
+      "num_statements": 16,
+      "percent_covered": 87.5,
+      "percent_covered_display": "88",
+      "missing_lines": 2,
+      "excluded_lines": 0,
+      "percent_statements_covered": 87.5,
+      "percent_statements_covered_display": "88"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/__init__.py": {
+      "covered_lines": 0,
+      "num_statements": 0,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/__init__.py": {
+      "covered_lines": 1,
+      "num_statements": 1,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/config.py": {
+      "covered_lines": 84,
+      "num_statements": 102,
+      "percent_covered": 82.3529411764706,
+      "percent_covered_display": "82",
+      "missing_lines": 18,
+      "excluded_lines": 0,
+      "percent_statements_covered": 82.3529411764706,
+      "percent_statements_covered_display": "82"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/datasets/__init__.py": {
+      "covered_lines": 54,
+      "num_statements": 56,
+      "percent_covered": 96.42857142857143,
+      "percent_covered_display": "96",
+      "missing_lines": 2,
+      "excluded_lines": 0,
+      "percent_statements_covered": 96.42857142857143,
+      "percent_statements_covered_display": "96"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/datasets/image_folder.py": {
+      "covered_lines": 2,
+      "num_statements": 2,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/datasets/synthetic.py": {
+      "covered_lines": 4,
+      "num_statements": 4,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/engine/__init__.py": {
+      "covered_lines": 0,
+      "num_statements": 0,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/engine/evaluator.py": {
+      "covered_lines": 15,
+      "num_statements": 15,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/engine/optim.py": {
+      "covered_lines": 16,
+      "num_statements": 18,
+      "percent_covered": 88.88888888888889,
+      "percent_covered_display": "89",
+      "missing_lines": 2,
+      "excluded_lines": 0,
+      "percent_statements_covered": 88.88888888888889,
+      "percent_statements_covered_display": "89"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/engine/predictor.py": {
+      "covered_lines": 18,
+      "num_statements": 19,
+      "percent_covered": 94.73684210526316,
+      "percent_covered_display": "95",
+      "missing_lines": 1,
+      "excluded_lines": 0,
+      "percent_statements_covered": 94.73684210526316,
+      "percent_statements_covered_display": "95"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/engine/trainer.py": {
+      "covered_lines": 90,
+      "num_statements": 97,
+      "percent_covered": 92.78350515463917,
+      "percent_covered_display": "93",
+      "missing_lines": 7,
+      "excluded_lines": 0,
+      "percent_statements_covered": 92.78350515463917,
+      "percent_statements_covered_display": "93"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/models/__init__.py": {
+      "covered_lines": 8,
+      "num_statements": 9,
+      "percent_covered": 88.88888888888889,
+      "percent_covered_display": "89",
+      "missing_lines": 1,
+      "excluded_lines": 0,
+      "percent_statements_covered": 88.88888888888889,
+      "percent_statements_covered_display": "89"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/models/cnn.py": {
+      "covered_lines": 2,
+      "num_statements": 2,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/models/mlp.py": {
+      "covered_lines": 2,
+      "num_statements": 2,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/seed.py": {
+      "covered_lines": 4,
+      "num_statements": 4,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/utils/__init__.py": {
+      "covered_lines": 0,
+      "num_statements": 0,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/utils/checkpoint.py": {
+      "covered_lines": 8,
+      "num_statements": 9,
+      "percent_covered": 88.88888888888889,
+      "percent_covered_display": "89",
+      "missing_lines": 1,
+      "excluded_lines": 0,
+      "percent_statements_covered": 88.88888888888889,
+      "percent_statements_covered_display": "89"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/utils/early_stopping.py": {
+      "covered_lines": 2,
+      "num_statements": 2,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "phase3_deep_learning/section09_deep_learning_engineering/projects/pytorch_training_framework/src/training_framework/utils/logger.py": {
+      "covered_lines": 2,
+      "num_statements": 2,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    }
+  },
+  "scope": "Phase 3 implementation; exercises/tests/conftest excluded",
+  "config": "phase3_deep_learning/coverage.ini"
+}
